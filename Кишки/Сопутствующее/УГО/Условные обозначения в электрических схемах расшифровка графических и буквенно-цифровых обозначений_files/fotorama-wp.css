@@ -1,0 +1,18 @@
+.fotorama--wp {
+  margin: 1em 0;
+}
+
+.fotorama--fullscreen {
+  margin: 0;
+}
+
+.gallery-settings h3:after {
+  content: ' (Fotorama ignores them)';
+  font-weight: normal;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+[lang="ru-RU"] .gallery-settings h3:after {
+	content: ' (Фоторама игнорирует их)';
+}
