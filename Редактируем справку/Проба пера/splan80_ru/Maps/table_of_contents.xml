@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude" defaulttopic="welcometosplan80">
+  <topicref type="topic" id="45631097190279" build="ALL" modified="2024-12-05T13:11:58.107Z" icon="0" href="welcometosplan80">
+    <caption translate="true">Добро пожаловать в sPlan 8.0</caption>
+    <topicref type="topic" id="456315777515827" build="ALL" modified="2024-12-05T13:11:58.107Z" icon="0" href="newinversion80">
+      <caption translate="true">Новое в версии 8.0</caption>
+    </topicref>
+    <topicref type="topic" id="456316185665719" build="ALL" modified="2024-12-05T13:11:58.107Z" icon="0" href="mainwindow">
+      <caption translate="true">Главное окно</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="456316630461310" build="ALL" modified="2024-12-05T13:11:58.107Z" icon="0" href="drawingofcircuitdiagrams">
+    <caption translate="true">Чертеж принципиальных схем</caption>
+    <topicref type="topic" id="456314628434930" build="ALL" modified="2024-12-05T13:11:58.107Z" icon="0" href="pagesettings">
+      <caption translate="true">Настройки страницы</caption>
+    </topicref>
+    <topicref type="topic" id="456313541378795" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="selectmoveanddeleteelements">
+      <caption translate="true">Выбрать, переместить и удалить элементы</caption>
+    </topicref>
+    <topicref type="topic" id="456314974590824" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="sizerandchanger">
+      <caption translate="true">Sizer and Changer</caption>
+    </topicref>
+    <topicref type="topic" id="456313355838913" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="gridsettings">
+      <caption translate="true">Настройки сетки</caption>
+    </topicref>
+    <topicref type="topic" id="456314166751086" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="thelowerstatusbar">
+      <caption translate="true">Нижняя строка состояния</caption>
+    </topicref>
+    <topicref type="topic" id="456314011962270" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="drawingfunctions">
+      <caption translate="true">Функции рисования</caption>
+      <topicref type="topic" id="456314024533601" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="drawingfunctions1">
+        <caption translate="true">Drawing functions</caption>
+      </topicref>
+      <topicref type="topic" id="456315802123694" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="lines">
+        <caption translate="true">Линии</caption>
+      </topicref>
+      <topicref type="topic" id="456317118255022" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="connections">
+        <caption translate="true">Соединения</caption>
+      </topicref>
+      <topicref type="topic" id="456316473713731" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="rectanglesroundedrectangles">
+        <caption translate="true">Прямоугольники, закругленные прямоугольники</caption>
+      </topicref>
+      <topicref type="topic" id="456313979695097" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="circlesellipsesorcirclesegments">
+        <caption translate="true">Круги, эллипсы или сегменты круга</caption>
+      </topicref>
+      <topicref type="topic" id="456314077172737" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="polygonsclosedareas">
+        <caption translate="true">Полигоны (закрытые области)</caption>
+      </topicref>
+      <topicref type="topic" id="456315731245720" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="beziercurves">
+        <caption translate="true">Кривые Безье</caption>
+      </topicref>
+      <topicref type="topic" id="456313707235719" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="freehandlines">
+        <caption translate="true">Линии от руки</caption>
+      </topicref>
+      <topicref type="topic" id="456314391529603" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="specialforms">
+        <caption translate="true">Особые формы</caption>
+      </topicref>
+      <topicref type="topic" id="456315385220679" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="dimensions">
+        <caption translate="true">Габаритные размеры</caption>
+      </topicref>
+      <topicref type="topic" id="456313736724853" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="text">
+        <caption translate="true">Текст</caption>
+        <topicref type="topic" id="456315111485272" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="extendedtextedit">
+          <caption translate="true">Расширенное редактирование текста</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="456313456769559" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="textrectmultiline">
+        <caption translate="true">TextRect (многострочный)</caption>
+      </topicref>
+      <topicref type="topic" id="456313481908579" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="bitmaps">
+        <caption translate="true">Растровые изображения</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="456317230530992" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="clipboardfunctions">
+      <caption translate="true">Функции буфера обмена</caption>
+    </topicref>
+    <topicref type="topic" id="456317642515763" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="copyadrawingtotheclipboard">
+      <caption translate="true">Копировать рисунок в буфер обмена</caption>
+    </topicref>
+    <topicref type="topic" id="456317384243675" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="rotatemirrorsettofrontback">
+      <caption translate="true">Повернуть, Зеркало, Установить вперед / назад</caption>
+    </topicref>
+    <topicref type="topic" id="456313610025230" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="alignelements">
+      <caption translate="true">Выровнять элементы</caption>
+    </topicref>
+    <topicref type="topic" id="456315883536379" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="colorizeelements">
+      <caption translate="true">Раскрасить элементы</caption>
+    </topicref>
+    <topicref type="topic" id="456317622450152" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="buildsplitgroups">
+      <caption translate="true">Создание / разделение групп</caption>
+    </topicref>
+    <topicref type="topic" id="456316957049620" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="magneticlines">
+      <caption translate="true">Магнитные линии</caption>
+    </topicref>
+    <topicref type="topic" id="456313667975419" build="ALL" modified="2024-12-05T13:11:58.108Z" icon="0" href="usingforms">
+      <caption translate="true">Использование форм</caption>
+    </topicref>
+    <topicref type="topic" id="456315409107314" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="multipageprojects">
+      <caption translate="true">Многостраничные проекты</caption>
+    </topicref>
+    <topicref type="topic" id="456314895305038" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="zooming">
+      <caption translate="true">Масштабирование</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="456316351966184" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="generalsettings">
+    <caption translate="true">Общие настройки</caption>
+    <topicref type="topic" id="456315688912214" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="generalsettings1">
+      <caption translate="true">Общие настройки</caption>
+    </topicref>
+    <topicref type="topic" id="456317381172139" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="display">
+      <caption translate="true">Отображение</caption>
+    </topicref>
+    <topicref type="topic" id="456316803616628" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="directories">
+      <caption translate="true">Каталоги</caption>
+    </topicref>
+    <topicref type="topic" id="456315253134246" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="library">
+      <caption translate="true">Библиотека</caption>
+    </topicref>
+    <topicref type="topic" id="456317062282057" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="grid">
+      <caption translate="true">Сетка</caption>
+    </topicref>
+    <topicref type="topic" id="456316761889826" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="autosave">
+      <caption translate="true">Автосохранение</caption>
+    </topicref>
+    <topicref type="topic" id="456313508970914" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="newpage">
+      <caption translate="true">Новая страница</caption>
+    </topicref>
+    <topicref type="topic" id="456316412764277" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="hotkeys">
+      <caption translate="true">Горячие клавиши</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="456316585165553" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="components">
+    <caption translate="true">Компоненты</caption>
+    <topicref type="topic" id="456317038585523" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="components1">
+      <caption translate="true">Компоненты</caption>
+    </topicref>
+    <topicref type="topic" id="456313913317931" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="whatisacomponent">
+      <caption translate="true">Что такое компонент?</caption>
+    </topicref>
+    <topicref type="topic" id="456315781889211" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="componentproperties">
+      <caption translate="true">Свойства компонента</caption>
+    </topicref>
+    <topicref type="topic" id="456317464505320" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="thecomponenteditor">
+      <caption translate="true">Редактор компонентов</caption>
+    </topicref>
+    <topicref type="topic" id="456314534656643" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="contacts">
+      <caption translate="true">Контакты</caption>
+    </topicref>
+    <topicref type="topic" id="456313395663655" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="createowncomponents">
+      <caption translate="true">Создавайте собственные компоненты</caption>
+    </topicref>
+    <topicref type="topic" id="456315703279562" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="splitcomponents">
+      <caption translate="true">Разделить компоненты</caption>
+    </topicref>
+    <topicref type="topic" id="456316362448381" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="changecomponentinscription">
+      <caption translate="true">Изменить надпись компонента</caption>
+    </topicref>
+    <topicref type="topic" id="456315613086144" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="automaticcomponentnumbering">
+      <caption translate="true">Автоматическая нумерация компонентов</caption>
+    </topicref>
+    <topicref type="topic" id="456315352081763" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="parentchildrelations">
+      <caption translate="true">Родительско-дочерние отношения</caption>
+    </topicref>
+    <topicref type="topic" id="456316292527470" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="componentlist">
+      <caption translate="true">Список компонентов</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="456313933532372" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="thecomponentlibrary">
+    <caption translate="true">Библиотека компонентов</caption>
+    <topicref type="topic" id="456317624261717" build="ALL" modified="2024-12-05T13:11:58.109Z" icon="0" href="thecomponentlibrary1">
+      <caption translate="true">Библиотека компонентов</caption>
+    </topicref>
+    <topicref type="topic" id="45631073053396" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="representationofthelibrary">
+      <caption translate="true">Представительство библиотеки</caption>
+    </topicref>
+    <topicref type="topic" id="45631665507946" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="editalibrarypage">
+      <caption translate="true">Редактировать страницу библиотеки</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="45632229993224" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="variablestextconstants">
+    <caption translate="true">Переменные / текстовые константы</caption>
+    <topicref type="topic" id="45630205678513" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="fixedvariables">
+      <caption translate="true">Фиксированные переменные</caption>
+    </topicref>
+    <topicref type="topic" id="45633394395863" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="uservariables">
+      <caption translate="true">Пользовательские переменные</caption>
+    </topicref>
+    <topicref type="topic" id="45629656685326" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="textconstants">
+      <caption translate="true">Текстовые константы</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="45629811833635" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="miscellaneousfunctions">
+    <caption translate="true">Разные функции</caption>
+    <topicref type="topic" id="45632199971307" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="activetextlinks">
+      <caption translate="true">Активные текстовые ссылки</caption>
+    </topicref>
+    <topicref type="topic" id="45633634065929" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="convertlinepolygon">
+      <caption translate="true">Преобразовать линию &lt;&gt; многоугольник</caption>
+    </topicref>
+    <topicref type="topic" id="45631427347679" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="printing">
+      <caption translate="true">Печать</caption>
+    </topicref>
+    <topicref type="topic" id="45630381659682" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="export">
+      <caption translate="true">Экспорт</caption>
+    </topicref>
+    <topicref type="topic" id="45633387029888" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="bitmapexplorer">
+      <caption translate="true">Bitmap-Explorer</caption>
+    </topicref>
+    <topicref type="topic" id="45632598851519" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="pastetableofcontents">
+      <caption translate="true">Вставить содержание</caption>
+    </topicref>
+    <topicref type="topic" id="45630311952797" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="scale">
+      <caption translate="true">Масштаб</caption>
+    </topicref>
+    <topicref type="topic" id="45632212228818" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="searchreplace">
+      <caption translate="true">Искать / Заменить</caption>
+    </topicref>
+    <topicref type="topic" id="45633421744282" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="keyboardcontrol">
+      <caption translate="true">Горячие клавиши</caption>
+    </topicref>
+    <topicref type="topic" id="45633233996725" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="translationintootherlanguages">
+      <caption translate="true">Перевод на другие языки</caption>
+    </topicref>
+    <topicref type="topic" id="45633047169942" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="softwareregistration">
+      <caption translate="true">Регистрация программного обеспечения</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="45632859595525" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="tipsandtricks">
+    <caption translate="true">Секреты и уловки</caption>
+  </topicref>
+  <topicref type="topic" id="45630895906533" build="ALL" modified="2024-12-05T13:11:58.110Z" icon="0" href="thesplanviewer">
+    <caption translate="true">Программа ''sPlan-Viewer''</caption>
+  </topicref>
+</map>

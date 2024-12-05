@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Marketing 1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Erstellen von Schaltplänen</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="line-height:1.00; tabstops:none;"><text styleclass="Heading1" style="font-family:&apos;Times New Roman&apos;; font-size:14pt; font-weight:normal; text-decoration:none; vertical-align:baseline; color:#333333;" translate="true">Erstellen von Schaltplänen</text></para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><link displaytype="image" src="arrow_left.png" type="topiclink" href="programmoberflche"></link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline;" translate="true">&#32;</text><link displaytype="image" src="arrow_right.png" type="topiclink" href="blatteinrichten"></link></para>
+    <para styleclass="Normal" style="line-height:1.00; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline;" translate="true">Copyright © ABACOM GbR, Germany. All Rights Reserved.</text></para>
+  </body>
+</topic>
