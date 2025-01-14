@@ -1,0 +1,93 @@
+﻿<html>
+	
+<head>
+	<title>Automatic Component Numbering</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+
+<body>
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Automatic Component Numbering</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="Components.htm">Components</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Components.htm"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="ChangeComponentinscription.htm"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ParentChildRelations.htm"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">With this function, you no longer have to worry about the annoying numbering of the individual components. You can leave this process completely up to the software, so you can always be sure that all components are numbered correctly.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">You can determine for each component individually whether it is eligible for automatic numbering or not. In the properties of a component you can activate the </span><span class="rvts11">"automatic numbering"</span><span class="rvts9"> field to activate the function for this component. As an identifier, please enter e.g. only the "R" for resistors (without a consecutive number!).</span></p>
+<p><span class="rvts9">The software then considers all components on the drawing that also have the identifier "R" (and have also activated the option "automatic numbering") as belonging together and automatically attaches the consecutive numbers to the identifier.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Preferably make the changes to the components in the library and not to the individual components on your schematic. If you have changed the component accordingly in the library, all newly imported copies on the schematic will have the same properties as the original in the library.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">When you delete components on the drawing, there are gaps in the automatic component numbering. To close this again, you can have the software renumber the entire drawing at any time. To do this, select the </span><span class="rvts11">Renumber components...</span><span class="rvts9"> command from the </span><span class="rvts11">Components</span><span class="rvts9"> menu, or click the corresponding toolbar button. The following window then appears:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem247.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Here you select the pages over which the automatic renumbering should extend. After you have confirmed this information, the following dialog appears: </span></p>
+<p><span class="rvts7"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem248.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Here you can have a certain influence on the component numbering.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts14">Geometric sorting</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">None</span></p>
+<p><span class="rvts9">If you choose this option, the components are simply numbered consecutively in the order in which they were created.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Columns</span></p>
+<p><span class="rvts9">If you choose this option, the components are numbered column by column. This means that e.g. components lying one below the other are numbered in ascending order.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Rows</span></p>
+<p><span class="rvts9">If you choose this option, the components are numbered line by line. This means that e.g. components lying next to each other are numbered in ascending order.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Geometrical grid</span></p>
+<p><span class="rvts9">If you have selected a geometric sorting (columns or rows), you can use this to determine the "sample size". In the case of a geometric sorting, the drawing is scanned either column by column or line by line with an imaginary square of a certain side length. All components that then lie within this square are numbered first, then the square is shifted downwards (column by column) or to the right (row by row) and the process begins again.</span></p>
+<p><span class="rvts9">You can determine the size of this square in the "Geometric grid" field. Depending on the size of the geometric grid, different numbering variants can arise.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts14">Options</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Only selected components</span></p>
+<p><span class="rvts9">If you have selected components before calling up the dialog, you can determine here whether only these components should be renumbered.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Only components with identifier:</span></p>
+<p><span class="rvts9">If you enter an identifier (e.g. "</span><span class="rvts11">R</span><span class="rvts9">") here, only components with this identifier will be renumbered.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Start at:</span></p>
+<p><span class="rvts9">If the components are not to be numbered consecutively from 1, you can also specify a different starting value here if necessary.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; ABACOM GbR, Germany. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+
