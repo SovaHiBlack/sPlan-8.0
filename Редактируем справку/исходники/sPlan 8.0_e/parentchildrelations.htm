@@ -1,0 +1,205 @@
+﻿<html>
+	
+<head>
+	<title>Parent-Child Relations</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+
+<body>
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Parent-Child Relations</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="Components.htm">Components</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Components.htm"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="AutomaticComponentNumbering.htm"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ComponentList.htm"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Individual components can have a </span><span class="rvts11">parent-child</span><span class="rvts9"> relationship to one another. A component can be declared as a </span><span class="rvts11">parent</span><span class="rvts9"> and other components can then declare this </span><span class="rvts11">parent component</span><span class="rvts9"> as their own parent and thus automatically become a </span><span class="rvts11">child</span><span class="rvts9"> of the superordinate </span><span class="rvts11">parent</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">A </span><span class="rvts11">parent</span><span class="rvts9"> knows all of their </span><span class="rvts11">children</span><span class="rvts9">, and a </span><span class="rvts11">child</span><span class="rvts9"> always knows their </span><span class="rvts11">parent</span><span class="rvts9">. This relation enables the components to access the data of the associated component. For example, the identifier of a </span><span class="rvts11">child</span><span class="rvts9"> can automatically contain the name of its </span><span class="rvts11">parent</span><span class="rvts9">. If the identifier of the </span><span class="rvts11">parent</span><span class="rvts9"> then changes, the name of the </span><span class="rvts11">child</span><span class="rvts9"> also changes automatically. Something like this is particularly advantageous when using contactors and contacts or also with ICs with several gates.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Here is an example with a contactor and 3 associated contacts: </span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem153.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">The contactor is a </span><span class="rvts11">parent</span><span class="rvts9"> and has the identifier </span><span class="rvts25">K1</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">The contacts have assigned contactor K1 as a </span><span class="rvts11">parent</span><span class="rvts9"> and are therefore automatically its </span><span class="rvts11">children</span><span class="rvts9">. In this example, the </span><span class="rvts11">children</span><span class="rvts9"> take the identifier </span><span class="rvts25">K1</span><span class="rvts9"> from the parent and subsequently receive a sequential number.</span></p>
+<p><span class="rvts9">If the identifier of the contactor changes, the identifiers of all contacts also change automatically.</span></p>
+<p><span class="rvts9">The contacts can also be distributed over several different pages of the project.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Here is another example of a 7400 IC: </span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem155.png"></p>
+<p><span class="rvts9">The main component on the left is the </span><span class="rvts11">parent</span><span class="rvts9">, and the 4 individual gates are the </span><span class="rvts11">children</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">In this example, the </span><span class="rvts11">children</span><span class="rvts9"> take on the identifier </span><span class="rvts25">IC1</span><span class="rvts9"> and also the value </span><span class="rvts26">7400</span><span class="rvts9"> of the parent.</span></p>
+<p><span class="rvts9">If the identifier or the value of the parent changes, all the identifiers and values of the individual gates change automatically. Here, too, the gates can be spread over several different pages of the project. </span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts27">Create a Parent-Child relation</span></p>
+<p><span class="rvts9">The creation of a parent-child relationship is simple: You simply select another component as the </span><span class="rvts11">parent</span><span class="rvts9"> for any component. As soon as a component has a </span><span class="rvts11">parent</span><span class="rvts9">, it is automatically a </span><span class="rvts11">child</span><span class="rvts9"> of this </span><span class="rvts11">parent</span><span class="rvts9">. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts27"><br></span></p>
+<p><span class="rvts14">Define a Component as a Parent:</span></p>
+<p><span class="rvts9">Only those components can be assigned as </span><span class="rvts11">parents</span><span class="rvts9"> that have already been </span><span class="rvts11">declared</span><span class="rvts9"> as parents.</span></p>
+<p><span class="rvts9">To define a component as a parent, select it and then click the </span><span class="rvts11">Set PARENT status</span><span class="rvts9"> button in the component properties. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem262.png"><span class="rvts9"> </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">The component then has the parent status. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem263.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"> </span></p>
+<p><span class="rvts28"><br></span></p>
+<p><span class="rvts14">Define a Child / Assign a Parent:</span></p>
+<p><span class="rvts9">If a </span><span class="rvts11">parent</span><span class="rvts9"> is assigned to a component, it automatically becomes a </span><span class="rvts11">child</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">To assign a component to a </span><span class="rvts11">parent</span><span class="rvts9">, select it and then click the </span><span class="rvts11">Assign PARENT...</span><span class="rvts9"> button in the component properties.</span></p>
+<p><span class="rvts9">Now select the desired </span><span class="rvts11">parent</span><span class="rvts9"> from the list of available </span><span class="rvts11">parents</span><span class="rvts9">. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem262.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">You can also select several components at the same time and set the </span><span class="rvts11">parent</span><span class="rvts9"> for all selected components together. So if you have a contactor and 3 contacts as in the example above, then select the 3 contacts and then assign all 3 components with the contactor as a </span><span class="rvts11">parent</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">After assigning a parent, the component is automatically a child. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem264.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts27">Automatic jumping to a Child or Parent:</span></p>
+<p><span class="rvts9">If you select a </span><span class="rvts11">parent</span><span class="rvts9"> with subordinate </span><span class="rvts11">children</span><span class="rvts9">, all </span><span class="rvts11">children</span><span class="rvts9"> are listed in the component properties: </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem265.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">You can now simply </span><span class="rvts11">double-click</span><span class="rvts9"> on an entry within this list and you will be navigated to the corresponding </span><span class="rvts11">child</span><span class="rvts9">, even if this should be on a different page.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">The whole thing works the same way with a </span><span class="rvts11">child</span><span class="rvts9">. The linked </span><span class="rvts11">parent</span><span class="rvts9"> is always displayed here: </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem264.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">With a double-click on the entry you will be navigated directly to the </span><span class="rvts11">parent</span><span class="rvts9">, even if this should be on a different page. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts27">Parent-Child-Variables</span></p>
+<p><span class="rvts9">So that a </span><span class="rvts11">child</span><span class="rvts9"> can automatically adopt the identifier and the value of its </span><span class="rvts11">parent</span><span class="rvts9">, special </span><a class="rvts10" href="FixedVariables.htm">variables</a><span class="rvts9"> are used that are only available for the </span><span class="rvts11">parent-child relationship</span><span class="rvts9">:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p class="rvps5"><span class="rvts11">&lt;PARENT_ID&gt;</span></p>
+<p class="rvps5"><span class="rvts9">Identifier of the parent</span></p>
+<p class="rvps5"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps5"><span class="rvts11">&lt;PARENT_VALUE&gt;</span></p>
+<p class="rvps5"><span class="rvts9">Value of the parent</span></p>
+<p class="rvps5"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps5"><span class="rvts11">&lt;PARENT_PAGENO&gt;</span></p>
+<p class="rvps5"><span class="rvts9">Page number of the parent</span></p>
+<p class="rvps5"><span class="rvts11"><br></span></p>
+<p class="rvps5"><span class="rvts11">&lt;CHILDNO&gt;</span></p>
+<p class="rvps5"><span class="rvts9">Number of the child</span></p>
+<p class="rvps5"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps5"><span class="rvts11">&lt;CHILDCHAR&gt;</span></p>
+<p class="rvps5"><span class="rvts9">Alphabetical letter corresponding to the number of the child (a, b, c ...)</span></p>
+<p class="rvps5"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps5"><span class="rvts11">&lt;CHILD_PAGENO&gt;</span></p>
+<p class="rvps5"><span class="rvts9">Page number of the child</span></p>
+<p class="rvps5"><span class="rvts11"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">So that a </span><span class="rvts11">child</span><span class="rvts9"> automatically adopts the </span><span class="rvts25">identifier</span><span class="rvts9"> and the </span><span class="rvts26">value</span><span class="rvts9"> of its </span><span class="rvts11">parent</span><span class="rvts9">, the corresponding fields of the </span><span class="rvts11">child</span><span class="rvts9"> are pre-assigned with 2 variables when they are linked to a parent:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">The </span><span class="rvts25">identifier</span><span class="rvts9"> automatically receives the variable </span><span class="rvts25">&lt;PARENT_ID&gt;</span></p>
+<p><span class="rvts9">The </span><span class="rvts26">value</span><span class="rvts9"> is automatically given the variable </span><span class="rvts26">&lt;PARENT_VALUE&gt;</span><span class="rvts9"> </span></p>
+<p><span class="rvts7"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem163.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">You can also change or extend this default as you wish.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;CHILDNO&gt; and &lt;CHILDCHAR&gt;:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">The parent manages its children and gives them a sequential number. The variable </span><span class="rvts11">&lt;CHILDNO&gt;</span><span class="rvts9"> indicates this number. For example, if a parent has 3 children, then these 3 children have the numbers 1, 2 and 3. This number can e.g. be displayed in addition to the identifier. To do this, define the identifier of the child as follows: </span><span class="rvts11">&lt;PARENT_ID&gt; - &lt;CHILDNO&gt;</span></p>
+<p><span class="rvts9">Now the identifiers of the children on the plan will look like this: </span><span class="rvts11">IC-1, IC-2, IC-3, ...</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">The </span><span class="rvts11">&lt;CHILDCHAR&gt;</span><span class="rvts9"> variable specifies the serial number as a character, i.e. a, b, c ...</span></p>
+<p><span class="rvts9">To do this, define the identifier of the child as follows: </span><span class="rvts11">&lt;PARENT_ID&gt; - &lt;CHILDCHAR&gt;</span></p>
+<p><span class="rvts9">Now the identifiers of the children on the map will look like this: </span><span class="rvts11">IC-a, IC-b, IC-c, ... </span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts27">Child-List (Contact overview)</span></p>
+<p><span class="rvts9">If you select a </span><span class="rvts11">parent</span><span class="rvts9"> with subordinate </span><span class="rvts11">children</span><span class="rvts9">, all </span><span class="rvts11">children</span><span class="rvts9"> are listed in the component properties.</span></p>
+<p><span class="rvts9">Here you can also create a child-list (contact overview) for the component: </span></p>
+<p><span class="rvts27"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem265.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">After clicking on</span><span class="rvts11"> Create Childlist (Contact overview)</span><span class="rvts9">, this dialog appears:</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem269.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Here you can make certain settings for the contact overview.</span></p>
+<p><span class="rvts9">With a click on </span><span class="rvts11">Paste...</span><span class="rvts9"> you can then place the contact overview on your plan: </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem270.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts27"><br></span></p>
+<p><span class="rvts27"><br></span></p>
+<p><span class="rvts27">Colorize Parent-Child</span></p>
+<p><span class="rvts9">sPlan can color-mark all parent-child components on the plan. This enables you to see at a glance which components are defined as parents or children, and which children belong to which parent. </span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem166.png"><span class="rvts9"> To switch this function on/off, please use this button in the upper toolbar of sPlan.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">All </span><span class="rvts26">parents</span><span class="rvts9"> are now highlighted in blue, all </span><span class="rvts25">children</span><span class="rvts9"> in a light reddish background.</span></p>
+<p><span class="rvts9">If you now select a parent or a child, the parent and all associated children are colored more strongly and you can immediately see how the components belong together: </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem167.png"></p>
+<p><span class="rvts7"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem169.png"><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts27"><br></span></p>
+<p><span class="rvts27"><br></span></p>
+<p><span class="rvts27"><br></span></p>
+<p><span class="rvts27">Parent-Child in the Library</span></p>
+<p><span class="rvts9">If it makes sense, you can include a complete </span><span class="rvts11">parent-child structure</span><span class="rvts9"> as 1 component in the library.</span></p>
+<p><span class="rvts9">That would make sense e.g. for the above example of a 7400-IC with its 4 gates.</span></p>
+<p><span class="rvts9">To do this, simply select the </span><span class="rvts11">parent component</span><span class="rvts9"> and </span><span class="rvts11">all of its children</span><span class="rvts9">. Now click with the </span><span class="rvts11">right</span><span class="rvts9"> mouse button on the </span><span class="rvts11">parent</span><span class="rvts9"> and select the entry </span><span class="rvts11">Copy selected component (with children) to the library</span><span class="rvts9">. Only the parent component is added to the library, but the children are stored in the parent. You can recognize this by the fact that a small triangle is displayed in the library for this component at the bottom right. If you move the mouse to this triangle, the associated children are displayed to the right of the component: </span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem164.png"><span class="rvts7"> </span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem165.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">If you drag such a component onto your plan, the </span><span class="rvts11">parent component</span><span class="rvts9"> and its </span><span class="rvts11">children</span><span class="rvts9"> will be created. </span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts27">Create Parent-Child-List</span></p>
+<p><span class="rvts9">You can create a hierarchical list with </span><span class="rvts11">all parents</span><span class="rvts9"> and their </span><span class="rvts11">children</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">This is useful, for example, for an extensive project with contactors and contacts, spread across different pages. The associated </span><span class="rvts11">children</span><span class="rvts9"> for all </span><span class="rvts11">parents</span><span class="rvts9"> are displayed in this list. This gives you a complete overview of all the pages in the project.</span></p>
+<p><span class="rvts9">To create this list, select the entry </span><span class="rvts11">Create Parent-Child-List...</span><span class="rvts9"> from the </span><span class="rvts11">Functions</span><span class="rvts9"> menu. </span></p>
+<p><span class="rvts7"><br></span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; ABACOM GbR, Germany. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="CHM Editor">
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="Font" value="Arial,8,0">
+		<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Добро пожаловать в sPlan 8.0">
+    <param name="Local" value="WelcometosPlan80.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Новое в версии 8.0">
+      <param name="Local" value="Newinversion80.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Главное окно">
+      <param name="Local" value="Mainwindow.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Чертеж принципиальных схем">
+    <param name="Local" value="Drawingofcircuitdiagrams.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Настройки страницы">
+      <param name="Local" value="Pagesettings.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Выбрать, переместить и удалить элементы">
+      <param name="Local" value="SelectMoveandDeleteElements.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Sizer and Changer">
+      <param name="Local" value="SizerandChanger.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Настройки сетки">
+      <param name="Local" value="Gridsettings.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Нижняя строка состояния">
+      <param name="Local" value="ThelowerStatusbar.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Функции рисования">
+      <param name="Local" value="Drawingfunctions.htm">
+      </OBJECT>
+    <UL>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Drawing functions">
+        <param name="Local" value="Drawingfunctions1.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Линии">
+        <param name="Local" value="Lines.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Соединения">
+        <param name="Local" value="Connections.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Прямоугольники, закругленные прямоугольники">
+        <param name="Local" value="RectanglesroundedRectangles.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Круги, эллипсы или сегменты круга">
+        <param name="Local" value="CirclesEllipsesorCirclesegments.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Полигоны (закрытые области)">
+        <param name="Local" value="Polygonsclosedareas.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Кривые Безье">
+        <param name="Local" value="Beziercurves.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Линии от руки">
+        <param name="Local" value="FreehandLines.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Особые формы">
+        <param name="Local" value="SpecialForms.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Габаритные размеры">
+        <param name="Local" value="Dimensions.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Текст">
+        <param name="Local" value="Text.htm">
+        </OBJECT>
+      <UL>
+        <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="Расширенное редактирование текста">
+          <param name="Local" value="ExtendedTextEdit.htm">
+          </OBJECT>
+      </UL>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TextRect (многострочный)">
+        <param name="Local" value="TextRectmultiline.htm">
+        </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Растровые изображения">
+        <param name="Local" value="Bitmaps.htm">
+        </OBJECT>
+    </UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Функции буфера обмена">
+      <param name="Local" value="Clipboardfunctions.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Копировать рисунок в буфер обмена">
+      <param name="Local" value="CopyaDrawingtotheClipboard.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Повернуть, отразить, передний план / задний план">
+      <param name="Local" value="RotateMirrorSettofrontback.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Выровнять элементы">
+      <param name="Local" value="AlignElements.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Раскрасить элементы">
+      <param name="Local" value="ColorizeElements.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Создание / разделение групп">
+      <param name="Local" value="BuildSplitGroups.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Магнитные линии">
+      <param name="Local" value="MagneticLines.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Использование форм">
+      <param name="Local" value="UsingForms.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Многостраничные проекты">
+      <param name="Local" value="MultiPageProjects.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Масштабирование">
+      <param name="Local" value="Zooming.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Общие настройки">
+    <param name="Local" value="GeneralSettings.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Общие настройки">
+      <param name="Local" value="GeneralSettings1.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Отображение">
+      <param name="Local" value="Display.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Каталоги">
+      <param name="Local" value="Directories.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Библиотека">
+      <param name="Local" value="Library.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Сетка">
+      <param name="Local" value="Grid.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Автосохранение">
+      <param name="Local" value="Autosave.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Новая страница">
+      <param name="Local" value="Newpage.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Горячие клавиши">
+      <param name="Local" value="Hotkeys.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Компоненты">
+    <param name="Local" value="Components.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Компоненты">
+      <param name="Local" value="Components1.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Что такое компонент?">
+      <param name="Local" value="WhatisaComponent.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Свойства компонента">
+      <param name="Local" value="ComponentProperties.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Редактор компонентов">
+      <param name="Local" value="TheComponentEditor.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Контакты">
+      <param name="Local" value="Contacts.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Создавайте собственные компоненты">
+      <param name="Local" value="CreateownComponents.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Разделить компоненты">
+      <param name="Local" value="SplitComponents.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Изменить надпись компонента">
+      <param name="Local" value="ChangeComponentinscription.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Автоматическая нумерация компонентов">
+      <param name="Local" value="AutomaticComponentNumbering.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Родительско-дочерние отношения">
+      <param name="Local" value="ParentChildRelations.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Список компонентов">
+      <param name="Local" value="ComponentList.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Библиотека компонентов">
+    <param name="Local" value="TheComponentLibrary.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Библиотека компонентов">
+      <param name="Local" value="TheComponentLibrary1.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Представительство библиотеки">
+      <param name="Local" value="RepresentationoftheLibrary.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Редактировать страницу библиотеки">
+      <param name="Local" value="EditaLibrarypage.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Переменные / текстовые константы">
+    <param name="Local" value="VariablesTextConstants.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Фиксированные переменные">
+      <param name="Local" value="FixedVariables.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Пользовательские переменные">
+      <param name="Local" value="UserVariables.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Текстовые константы">
+      <param name="Local" value="TextConstants.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Разные функции">
+    <param name="Local" value="MiscellaneousFunctions.htm">
+    </OBJECT>
+  <UL>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Активные текстовые ссылки">
+      <param name="Local" value="ActiveTextLinks.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Преобразовать линию <> многоугольник">
+      <param name="Local" value="ConvertLinePolygon.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Печать">
+      <param name="Local" value="Printing.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Экспорт">
+      <param name="Local" value="Export.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Bitmap-Explorer">
+      <param name="Local" value="BitmapExplorer.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Вставить содержание">
+      <param name="Local" value="PasteTableofContents.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Масштаб">
+      <param name="Local" value="Scale.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Искать / Заменить">
+      <param name="Local" value="SearchReplace.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Горячие клавиши">
+      <param name="Local" value="KeyboardControl.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Перевод на другие языки">
+      <param name="Local" value="Translationintootherlanguages.htm">
+      </OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+      <param name="Name" value="Регистрация программного обеспечения">
+      <param name="Local" value="SoftwareRegistration.htm">
+      </OBJECT>
+  </UL>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Секреты и уловки">
+    <param name="Local" value="TipsandTricks.htm">
+    </OBJECT>
+  <LI> <OBJECT type="text/sitemap">
+    <param name="Name" value="Программа ''sPlan-Viewer''">
+    <param name="Local" value="ThesPlanViewer.htm">
+    </OBJECT>
+</UL>
+</BODY></HTML>
