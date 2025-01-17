@@ -44,7 +44,7 @@
 				</object>
 
 	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Sizer and Changer">
+				<param name="Name" value="Калибровщики и изменители">
 				<param name="Local" value="SizerandChanger.htm">
 				</object>
 
@@ -67,13 +67,14 @@
 				<param name="Name" value="Drawing functions">
 				<param name="Local" value="Drawingfunctions1.htm">
 				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Lines">
+		</li>
+		<li>
+			<object type="text/sitemap">
+				<param name="Name" value="Линия">
 				<param name="Local" value="Lines.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
+			</object>
+		</li>
+		<li> <object type="text/sitemap">
 				<param name="Name" value="Connections">
 				<param name="Local" value="Connections.htm">
 				</object>
