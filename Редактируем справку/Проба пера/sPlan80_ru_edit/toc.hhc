@@ -29,7 +29,7 @@
 				</object>
 
 	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Drawing of circuit diagrams">
+				<param name="Name" value="Составление принципиальных схем">
 				<param name="Local" value="Drawingofcircuitdiagrams.htm">
 				</object>
 
@@ -59,23 +59,18 @@
 				</object>
 
 	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Drawing functions">
+				<param name="Name" value="Функции рисования">
 				<param name="Local" value="Drawingfunctions.htm">
 				</object>
 
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="Drawing functions">
-				<param name="Local" value="Drawingfunctions1.htm">
-				</object>
-		</li>
-		<li>
+	<ul><li>
 			<object type="text/sitemap">
 				<param name="Name" value="Линия">
 				<param name="Local" value="Lines.htm">
 			</object>
 		</li>
 		<li> <object type="text/sitemap">
-				<param name="Name" value="Connections">
+				<param name="Name" value="Соединение">
 				<param name="Local" value="Connections.htm">
 				</object>
 
