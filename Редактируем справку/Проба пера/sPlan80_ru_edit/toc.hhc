@@ -1,402 +1,489 @@
 <html>
-
-<head>
-	<meta name="generator" content="HelpNDoc">
-</head>
-
-<body>
-	<object type="text/site properties">
-		<param name="Font" value="Arial,8,0">
-		<param name="Window Styles" value="0x800025">
-	</object>
-
-	<ul>
-		<li>
-			<object type="text/sitemap">
-				<param name="Name" value="Welcome to sPlan 8.0">
-				<param name="Local" value="WelcometosPlan80.htm">
-			</object>
-			<ul>
-				<li>
-					<object type="text/sitemap">
-				<param name="Name" value="New in version 8.0">
-				<param name="Local" value="Newinversion80.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Main window">
-				<param name="Local" value="Mainwindow.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Составление принципиальных схем">
-				<param name="Local" value="Drawingofcircuitdiagrams.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="Page settings">
-				<param name="Local" value="Pagesettings.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Select, Move and Delete Elements">
-				<param name="Local" value="SelectMoveandDeleteElements.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Калибровщики и изменители">
-				<param name="Local" value="SizerandChanger.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Grid settings">
-				<param name="Local" value="Gridsettings.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="The lower Statusbar">
-				<param name="Local" value="ThelowerStatusbar.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Функции рисования">
-				<param name="Local" value="Drawingfunctions.htm">
-				</object>
-
-	<ul><li>
-			<object type="text/sitemap">
-				<param name="Name" value="Линия">
-				<param name="Local" value="Lines.htm">
-			</object>
-		</li>
-		<li> <object type="text/sitemap">
-				<param name="Name" value="Соединение">
-				<param name="Local" value="Connections.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Rectangles, rounded Rectangles">
-				<param name="Local" value="RectanglesroundedRectangles.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Circles, Ellipses or Circle segments">
-				<param name="Local" value="CirclesEllipsesorCirclesegments.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Polygons (closed areas)">
-				<param name="Local" value="Polygonsclosedareas.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Bezier curves">
-				<param name="Local" value="Beziercurves.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Freehand Lines">
-				<param name="Local" value="FreehandLines.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Special Forms">
-				<param name="Local" value="SpecialForms.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Dimensions">
-				<param name="Local" value="Dimensions.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Text">
-				<param name="Local" value="Text.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="Extended Text Edit">
-				<param name="Local" value="ExtendedTextEdit.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="TextRect (multiline)">
-				<param name="Local" value="TextRectmultiline.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Bitmaps">
-				<param name="Local" value="Bitmaps.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Clipboard functions">
-				<param name="Local" value="Clipboardfunctions.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Copy a Drawing to the Clipboard">
-				<param name="Local" value="CopyaDrawingtotheClipboard.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Rotate,  Mirror, Set to front / back">
-				<param name="Local" value="RotateMirrorSettofrontback.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Align Elements">
-				<param name="Local" value="AlignElements.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Colorize Elements">
-				<param name="Local" value="ColorizeElements.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Build / Split Groups">
-				<param name="Local" value="BuildSplitGroups.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Magnetic Lines">
-				<param name="Local" value="MagneticLines.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Using Forms">
-				<param name="Local" value="UsingForms.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Multi-Page Projects">
-				<param name="Local" value="MultiPageProjects.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Zooming">
-				<param name="Local" value="Zooming.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="General Settings">
-				<param name="Local" value="GeneralSettings.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="General Settings">
-				<param name="Local" value="GeneralSettings1.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Display">
-				<param name="Local" value="Display.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Directories">
-				<param name="Local" value="Directories.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Library">
-				<param name="Local" value="Library.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Grid">
-				<param name="Local" value="Grid.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Autosave">
-				<param name="Local" value="Autosave.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="New page">
-				<param name="Local" value="Newpage.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Hotkeys">
-				<param name="Local" value="Hotkeys.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Components">
-				<param name="Local" value="Components.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="Components">
-				<param name="Local" value="Components1.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="What is a Component?">
-				<param name="Local" value="WhatisaComponent.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Component Properties">
-				<param name="Local" value="ComponentProperties.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="The Component-Editor">
-				<param name="Local" value="TheComponentEditor.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Contacts">
-				<param name="Local" value="Contacts.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Create own Components">
-				<param name="Local" value="CreateownComponents.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Split Components">
-				<param name="Local" value="SplitComponents.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Change Component inscription">
-				<param name="Local" value="ChangeComponentinscription.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Automatic Component Numbering">
-				<param name="Local" value="AutomaticComponentNumbering.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Parent-Child Relations">
-				<param name="Local" value="ParentChildRelations.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Component List">
-				<param name="Local" value="ComponentList.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="The Component Library">
-				<param name="Local" value="TheComponentLibrary.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="The Component Library">
-				<param name="Local" value="TheComponentLibrary1.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Representation of the Library">
-				<param name="Local" value="RepresentationoftheLibrary.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Edit a Library page">
-				<param name="Local" value="EditaLibrarypage.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Variables / Text Constants">
-				<param name="Local" value="VariablesTextConstants.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="Fixed Variables">
-				<param name="Local" value="FixedVariables.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="User Variables">
-				<param name="Local" value="UserVariables.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Text Constants">
-				<param name="Local" value="TextConstants.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Miscellaneous Functions">
-				<param name="Local" value="MiscellaneousFunctions.htm">
-				</object>
-
-	<ul><li> <object type="text/sitemap">
-				<param name="Name" value="Active Text-Links">
-				<param name="Local" value="ActiveTextLinks.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Convert Line &lt;&gt; Polygon">
-				<param name="Local" value="ConvertLinePolygon.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Printing">
-				<param name="Local" value="Printing.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Export">
-				<param name="Local" value="Export.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Bitmap-Explorer">
-				<param name="Local" value="BitmapExplorer.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Paste Table of Contents">
-				<param name="Local" value="PasteTableofContents.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Scale">
-				<param name="Local" value="Scale.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Search / Replace">
-				<param name="Local" value="SearchReplace.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Keyboard Control">
-				<param name="Local" value="KeyboardControl.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Translation into other languages">
-				<param name="Local" value="Translationintootherlanguages.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="Software-Registration">
-				<param name="Local" value="SoftwareRegistration.htm">
-				</object>
-
-	</li></ul></li><li> <object type="text/sitemap">
-				<param name="Name" value="Tips and Tricks">
-				<param name="Local" value="TipsandTricks.htm">
-				</object>
-
-	</li><li> <object type="text/sitemap">
-				<param name="Name" value="The &quot;sPlan-Viewer&quot;">
-				<param name="Local" value="ThesPlanViewer.htm">
-				</object>
-
-	</li></ul>
-    
-</body>
-
+	<head>
+		<meta name="generator" content="HelpNDoc">
+	</head>
+
+	<body>
+		<object type="text/site properties">
+			<param name="Font" value="Arial,8,0">
+			<param name="Window Styles" value="0x800025">
+		</object>
+
+		<ul>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Добро пожаловать в sPlan 8.0">
+					<param name="Local" value="WelcometosPlan80.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Новое в версии 8.0">
+							<param name="Local" value="Newinversion80.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Главное окно">
+							<param name="Local" value="Mainwindow.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Составление принципиальных схем">
+					<param name="Local" value="Drawingofcircuitdiagrams.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Настройки листа">
+							<param name="Local" value="Pagesettings.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Выделение, Перемещение и Удаление элементов">
+							<param name="Local" value="SelectMoveandDeleteElements.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Калибровщики и изменители">
+							<param name="Local" value="SizerandChanger.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Настройки сетки">
+							<param name="Local" value="Gridsettings.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Нижняя Строка состояния">
+							<param name="Local" value="ThelowerStatusbar.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Функции рисования">
+							<param name="Local" value="Drawingfunctions.htm">
+						</object>
+						<ul>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Линия">
+									<param name="Local" value="Lines.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Соединение">
+									<param name="Local" value="Connections.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Прямоугольник">
+									<param name="Local" value="RectanglesroundedRectangles.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Окружность">
+									<param name="Local" value="CirclesEllipsesorCirclesegments.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Многоугольник">
+									<param name="Local" value="Polygonsclosedareas.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Кривая Безье">
+									<param name="Local" value="Beziercurves.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Произвольная линия">
+									<param name="Local" value="FreehandLines.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Фигуры">
+									<param name="Local" value="SpecialForms.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Размер">
+									<param name="Local" value="Dimensions.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Текст">
+									<param name="Local" value="Text.htm">
+								</object>
+								<ul>
+									<li>
+										<object type="text/sitemap">
+											<param name="Name" value="Расширенное редактирование текста">
+											<param name="Local" value="ExtendedTextEdit.htm">
+										</object>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Текстовый блок">
+									<param name="Local" value="TextRectmultiline.htm">
+								</object>
+							</li>
+							<li>
+								<object type="text/sitemap">
+									<param name="Name" value="Растровое изображение">
+									<param name="Local" value="Bitmaps.htm">
+								</object>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Функции буфера обмена">
+							<param name="Local" value="Clipboardfunctions.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Копирование схемы в буфер обмена">
+							<param name="Local" value="CopyaDrawingtotheClipboard.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Поворот, Отражение, Передний план / Задний план">
+							<param name="Local" value="RotateMirrorSettofrontback.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Выравнивание элементов">
+							<param name="Local" value="AlignElements.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Цвет элементов">
+							<param name="Local" value="ColorizeElements.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Создание / Разделение групп">
+							<param name="Local" value="BuildSplitGroups.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Направляющие линии">
+							<param name="Local" value="MagneticLines.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Использование Форм">
+							<param name="Local" value="UsingForms.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Многостраничные проекты">
+							<param name="Local" value="MultiPageProjects.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Масштабирование">
+							<param name="Local" value="Zooming.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Общие настройки">
+					<param name="Local" value="GeneralSettings.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Общие настройки">
+							<param name="Local" value="GeneralSettings1.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Отображение">
+							<param name="Local" value="Display.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Каталоги">
+							<param name="Local" value="Directories.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Библиотека">
+							<param name="Local" value="Library.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Сетка">
+							<param name="Local" value="Grid.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Автосохранение">
+							<param name="Local" value="Autosave.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Новый лист">
+							<param name="Local" value="Newpage.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Горячие клавиши">
+							<param name="Local" value="Hotkeys.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Компоненты">
+					<param name="Local" value="Components.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Компоненты">
+							<param name="Local" value="Components1.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Что такое Компонент?">
+							<param name="Local" value="WhatisaComponent.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Свойства Компонента">
+							<param name="Local" value="ComponentProperties.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Редактор Компонента">
+							<param name="Local" value="TheComponentEditor.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Контакты Компонента">
+							<param name="Local" value="Contacts.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Создание Компонента">
+							<param name="Local" value="CreateownComponents.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Разделение Компонента">
+							<param name="Local" value="SplitComponents.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Изменение маркировки Компонента">
+							<param name="Local" value="ChangeComponentinscription.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Автоматическая нумерация Компонентов">
+							<param name="Local" value="AutomaticComponentNumbering.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Родительско-Дочерние отношения">
+							<param name="Local" value="ParentChildRelations.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Список Компонентов">
+							<param name="Local" value="ComponentList.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Библиотека Компонентов">
+					<param name="Local" value="TheComponentLibrary.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Библиотека Компонентов">
+							<param name="Local" value="TheComponentLibrary1.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Отображение Библиотеки">
+							<param name="Local" value="RepresentationoftheLibrary.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Редактирование страницы Библиотеки">
+							<param name="Local" value="EditaLibrarypage.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Переменные / Текстовые Константы">
+					<param name="Local" value="VariablesTextConstants.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Фиксированная Переменная">
+							<param name="Local" value="FixedVariables.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Своя Переменная">
+							<param name="Local" value="UserVariables.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Текстовая Константа">
+							<param name="Local" value="TextConstants.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Различные функции">
+					<param name="Local" value="MiscellaneousFunctions.htm">
+				</object>
+				<ul>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Активная текстовая ссылка">
+							<param name="Local" value="ActiveTextLinks.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Преобразование Линия &lt;&gt; Многоугольник">
+							<param name="Local" value="ConvertLinePolygon.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Печать">
+							<param name="Local" value="Printing.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Экспорт">
+							<param name="Local" value="Export.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Диспетчер изображений">
+							<param name="Local" value="BitmapExplorer.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Вставка оглавления">
+							<param name="Local" value="PasteTableofContents.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Масштаб">
+							<param name="Local" value="Scale.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Поиск / Замена">
+							<param name="Local" value="SearchReplace.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Управление с клавиатуры">
+							<param name="Local" value="KeyboardControl.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Перевод на другие языки">
+							<param name="Local" value="Translationintootherlanguages.htm">
+						</object>
+					</li>
+					<li>
+						<object type="text/sitemap">
+							<param name="Name" value="Регистрация программного обеспечения">
+							<param name="Local" value="SoftwareRegistration.htm">
+						</object>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Советы и рекомендации">
+					<param name="Local" value="TipsandTricks.htm">
+				</object>
+			</li>
+			<li>
+				<object type="text/sitemap">
+					<param name="Name" value="Программа &quot;sPlan-Viewer&quot;">
+					<param name="Local" value="ThesPlanViewer.htm">
+				</object>
+			</li>
+		</ul>
+	</body>
 </html>
-
