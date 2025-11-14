@@ -1,0 +1,251 @@
+﻿<html>
+	
+<head>
+	<title>Feste Variablen</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+
+<body>
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Feste Variablen</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="VariablenTextkonstanten.htm">Variablen / Textkonstanten</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="VariablenTextkonstanten.htm"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="VariablenTextkonstanten.htm"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="AnwenderVariablen.htm"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p><span class="rvts6"><br></span></p>
+<p><span class="rvts9">Variablen können innerhalb eines Textes als Platzhalter eingesetzt werden. </span></p>
+<p><span class="rvts9">Es gibt in sPlan eine Vielzahl von vordefinierten sogenannten </span><span class="rvts11">festen Variablen. </span><span class="rvts9">Sie können diese Variablen innerhalb eines Textes beliebig einsetzen und so die Texte gewissermaßen automatisieren. In den Texten muss der der Variablenname immer mit den Zeichen </span><span class="rvts11">"&lt;"</span><span class="rvts9"> und </span><span class="rvts11">"&gt;"</span><span class="rvts9"> eingebettet werden. Eine Variable sieht also z.B. so aus: </span><span class="rvts11">&lt;PAGENO&gt;</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Hier ein einfaches Beispiel:</span></p>
+<p><span class="rvts6"><br></span></p>
+<p><img align="absmiddle" border="0" alt hspace="1" vspace="1" src="lib/NewItem130.png"><span class="rvts7"> &nbsp; </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem131.png"></p>
+<p><span class="rvts14">Den Dialog </span><span class="rvts21">Erweiterte Texteingabe</span><span class="rvts14"> erreichen Sie einfach mit einem Doppelklick auf den Text.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Hier sind im Text die 2 Variablen </span><span class="rvts11">&lt;PAGENO&gt;</span><span class="rvts9"> und </span><span class="rvts11">&lt;PAGECOUNT&gt;</span><span class="rvts9"> verwendet worden. Diese beiden Variablen liefern die Blattnummer des aktuellen Blattes und die gesamte Blattanzahl im Projekt. Die Variablen ändern Ihren Inhalt automatisch. Wenn also ein weiteres Blatt dem Projekt hinzugefügt wird, so ändert sich der Text automatisch zu </span><span class="rvts11">"Dies ist Blatt 2 von 5"</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts33">Hier nun eine Auflistung aller vordefinierten festen Variablen:</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;PAGENO&gt;</span></p>
+<p><span class="rvts9">Die Blattnummer</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;PAGECOUNT&gt;</span></p>
+<p><span class="rvts9">Die Anzahl der Blätter insgesamt</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;PAGENAME&gt;</span></p>
+<p><span class="rvts9">Der Name der Seite</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;FILENAME&gt;</span></p>
+<p><span class="rvts9">Der Name der Datei (falls gespeichert)</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;FILENAME_PURE&gt;</span></p>
+<p><span class="rvts9">Der Name der Datei (falls gespeichert) ohne Dateiendung</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;FILEPATH&gt;</span></p>
+<p><span class="rvts9">Der Ordner, in dem die Datei gespeichert ist</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts11">&lt;FILEDATE&gt;</span></p>
+<p><span class="rvts9">Das Datum der Datei (falls gespeichert)</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts11">&lt;FILETIME&gt;</span></p>
+<p><span class="rvts9">Die Uhrzeit der Datei (falls gespeichert)</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;VERSION&gt;</span></p>
+<p><span class="rvts9">Die Programmversion (= "sPlan 8.0")</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;TIME&gt;</span></p>
+<p><span class="rvts9">Die aktuelle Uhrzeit</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;DATE&gt;</span></p>
+<p><span class="rvts9">Das aktuelle Datum</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts33">Variablen die nur innerhalb eines Bauteiles verfügbar sind:</span></p>
+<p><span class="rvts15"><br></span></p>
+<p><span class="rvts11">&lt;BEZ&gt;</span></p>
+<p><span class="rvts9">Eine Kopie des Bauteil-Bezeichners</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;WERT&gt;</span></p>
+<p><span class="rvts9">Eine Kopie des Bauteil-Wertes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;Z1&gt;</span></p>
+<p><span class="rvts9">Eine Kopie des Zusatztextes 1</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;Z2&gt;</span></p>
+<p><span class="rvts9">Eine Kopie des Zusatztextes 2</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;Z3&gt;</span></p>
+<p><span class="rvts9">Eine Kopie des Zusatztextes 3</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;Z4&gt;</span></p>
+<p><span class="rvts9">Eine Kopie des Zusatztextes 4</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">Wenn Sie in den Blatteigenschaften ein </span><a class="rvts34" href="VerwendungvonFormblttern.htm">Formblatt</a><span class="rvts11"> definiert haben, stehen Ihnen folgende weitere Variablen zur Verfügung:</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;COLNUM&gt;</span></p>
+<p><span class="rvts9">Die Nummer der SPALTE in der sich das Bauteil befindet</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der SPALTE in der sich das Bauteil befindet (A,B,C...)</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;ROWNUM&gt;</span></p>
+<p><span class="rvts9">Die Nummer der ZEILE in der sich das Bauteil befindet</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der ZEILE in der sich das Bauteil befindet (A,B,C...)</span></p>
+<p><span class="rvts33"><br></span></p>
+<p><span class="rvts33"><br></span></p>
+<p><span class="rvts33"><br></span></p>
+<p><span class="rvts33">Variablen die nur in Verbindung mit der </span><a class="rvts32" href="ParentChildBauteilbeziehungen.htm">Parent-Child-Bauteilbeziehung</a><span class="rvts33"> verfügbar sind:</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts33">Variablen für die Verwendung in Child-Bauteilen:</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_ID&gt;</span></p>
+<p><span class="rvts9">Bezeichner des Parents</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;PARENT_VALUE&gt;</span></p>
+<p><span class="rvts9">Wert des Parents</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;PARENT_PAGENO&gt;</span></p>
+<p><span class="rvts9">Blattnummer des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z1&gt;</span></p>
+<p><span class="rvts9">Zusatztext 1 des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z2&gt;</span></p>
+<p><span class="rvts9">Zusatztext 2 des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z3&gt;</span></p>
+<p><span class="rvts9">Zusatztext 3 des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z4&gt;</span></p>
+<p><span class="rvts9">Zusatztext 4 des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_CONTACT_1&gt;</span></p>
+<p><span class="rvts9">Kontakt 1 des Parents (...2, ...3, etc.)</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_COLNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der SPALTE des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der SPALTE des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_ROWNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der ZEILE des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der ZEILE des Parents</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILDNO&gt;</span></p>
+<p><span class="rvts9">Nummer des Child</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">&lt;CHILDCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe entsprechend der Nummer des Child (a,b,c...)</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts33">Variablen für die Verwendung in Parent-Bauteilen:</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_PAGENO&gt;</span></p>
+<p><span class="rvts9">Blattnummer(n) des Child</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_PAGENAME&gt; &nbsp;</span></p>
+<p><span class="rvts9">Blattname des (1.) Child</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_COLNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der SPALTE des (1.) Child</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der SPALTE des (1.) Child</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_ROWNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der ZEILE des (1.) Child</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der ZEILE des (1.) Child</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Diese </span><span class="rvts11">&lt;CHILD_...&gt;</span><span class="rvts9"> Variablen liefern immer die Daten des </span><span class="rvts11">ersten</span><span class="rvts9"> Child zurück.</span></p>
+<p><span class="rvts9">Wenn Sie mehrere Child-Bauteile mit dem Parent verknüpft haben, können Sie in den Variablen auch direkt die gewünschte Child-Nummer angeben. Fügen Sie dafür einfach am Ende der Variablen VOR dem "</span><span class="rvts11">&gt;</span><span class="rvts9">" ein Unterstrich gefolgt von der Child-Nummer ein. So liefert z.B. die Variable </span><span class="rvts11">&lt;CHILD_PAGENO_2&gt;</span><span class="rvts9"> die Blattnummer des 2. Child, oder </span><span class="rvts11">&lt;CHILD_COLNUM_4&gt;</span><span class="rvts9"> liefert die Spaltennummer des 4. Child.</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts33">Variablen die nur innerhalb von </span><a class="rvts35" href="TextVerlinkungen.htm">Text-Verlinkungen</a><span class="rvts33"> verfügbar sind:</span></p>
+<p><span class="rvts15"><br></span></p>
+<p><span class="rvts11">&lt;LINK_PAGENO&gt;</span></p>
+<p><span class="rvts9">Die Blattnummer auf der der Ziel-Text liegt</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_PAGENAME&gt;</span></p>
+<p><span class="rvts9">Der Blattname auf der der Ziel-Text liegt</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_TEXT&gt;</span></p>
+<p><span class="rvts9">Der Text des Ziel-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_COLNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der SPALTE des Ziel-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der SPALTE des Ziel-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_ROWNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der ZEILE des Ziel-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der ZEILE des Ziel-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_PAGENO&gt;</span></p>
+<p><span class="rvts9">Die Blattnummer auf der der Quell-Text liegt</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_PAGENAME&gt;</span></p>
+<p><span class="rvts9">Der Blattname auf der der Quell-Text liegt</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_TEXT&gt;</span></p>
+<p><span class="rvts9">Der Text des Quell-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_COLNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der SPALTE des Quell-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der SPALTE des Quell-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_ROWNUM&gt;</span></p>
+<p><span class="rvts9">Nummer der ZEILE des Quell-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetischer Buchstabe für die Nummer der ZEILE des Quell-Textes</span></p>
+<p><span class="rvts11"><br></span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; ABACOM GbR, Germany. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

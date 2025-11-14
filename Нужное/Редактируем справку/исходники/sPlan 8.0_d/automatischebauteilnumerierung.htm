@@ -1,0 +1,93 @@
+﻿<html>
+	
+<head>
+	<title>Automatische Bauteilnumerierung</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+
+<body>
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Automatische Bauteilnumerierung</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="Bauteile.htm">Bauteile</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Bauteile.htm"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Bauteilbeschriftungenndern.htm"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="ParentChildBauteilbeziehungen.htm"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Mit dieser Funktion brauchen Sie sich nicht mehr um das lästige Durchnummerieren der einzelnen Bauteile zu kümmern. Sie können diesen Vorgang komplett der Software überlassen, und so immer sicher sein, dass alle Bauteile korrekt Durchnummeriert werden.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Sie können für jedes Bauteil einzeln bestimmen, ob es für die automatische Nummerierung in Frage kommt, oder nicht. In den Eigenschaften eines Bauteiles können Sie das Feld </span><span class="rvts11">"automatisch&nbsp; Nummerieren"</span><span class="rvts9"> aktivieren, um die Funktion für dieses Bauteil einzuschalten. Als Bezeichner geben Sie dann bitte z.B. nur das "R" für Widerstände (ohne eine laufende Nummer!) ein. </span></p>
+<p><span class="rvts9">Die Software betrachtet dann anschließend alle Bauteile auf dem Schaltplan die ebenfalls den Bezeichner "R" haben (und ebenfalls die Option "automatisches Nummerieren" aktiviert haben) als zusammengehörig und hängt die fortlaufenden Nummern automatisch an den Bezeichner.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Machen Sie die Änderungen vorzugsweise an den Bauteilen in der Bibliothek, und nicht an den einzelnen Bauteilen auf Ihrem Schaltplan. Wenn Sie das Bauteil in der Bibliothek entsprechend geändert haben, werden alle neu hereingezogene Kopien auf dem Schaltplan die gleichen Eigenschaften haben, wie das Original in der Bibliothek.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Beim Löschen von Bauteilen auf dem Schaltplan entstehen Lücken in der automatischen Bauteilnummerierung. Um diese wieder zu schließen, können Sie die Software jederzeit dazu veranlassen, den kompletten Schaltplan neu durchzunummerieren. Wählen Sie hierzu den Befehl </span><span class="rvts11">Bauteile neu nummerieren...</span><span class="rvts9"> aus dem Menü </span><span class="rvts11">Bauteil</span><span class="rvts9">, oder klicken Sie auf den entsprechenden Toolbarknopf. Daraufhin erscheint folgendes Fenster:</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem138.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Hier wählen Sie aus, über welche Blätter sich die automatische Neunummerierung erstrecken soll. Nachdem Sie diese Angaben bestätigt haben, erscheint folgender Dialog:</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem139.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Hier können Sie einen gewissen Einfluss auf die Bauteilnummerierung.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts15"><br></span></p>
+<p><span class="rvts15">Geometrische Sortierung</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">Keine Sortierung</span></p>
+<p><span class="rvts9">Wenn Sie diese Option wählen, so werden die Bauteile einfach in der Reihenfolge Ihres Entstehens durchnummeriert.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">Spaltenweise</span></p>
+<p><span class="rvts9">Wenn Sie diese Option wählen, so werden die Bauteile spaltenweise nummeriert. Das bedeutet, dass z.B. untereinander liegende Bauteile aufsteigend nummeriert werden.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11">Zeilenweise</span></p>
+<p><span class="rvts9">Wenn Sie diese Option wählen, so werden die Bauteile zeilenweise nummeriert. Das bedeutet, dass z.B. nebeneinander liegende Bauteile aufsteigend nummeriert werden.</span></p>
+<p><span class="rvts15"><br></span></p>
+<p><span class="rvts11">Geometrisches Raster</span></p>
+<p><span class="rvts9">Wenn Sie eine geometrische Sortierung (spalten- oder zeilenweise) gewählt haben, können Sie hiermit die "Abtastgröße" bestimmen. Bei einer geometrischen Sortierung wird der Schaltplan entweder spalten- oder zeilenweise mit einem gedachten Quadrat bestimmter Seitenlänge abgetastet. Alle Bauteile, die dann innerhalb dieses Quadrates liegen, werden als erstes nummeriert, danach wird das Quadrat nach unten (spaltenweise) oder nach rechts (zeilenweise) verschoben und der Vorgang beginnt von neuem.</span></p>
+<p><span class="rvts9">Die Größe dieses Quadrates können Sie in dem Feld "Geometrisches Raster" bestimmen. Je nach Größe des geometrischen Rasters können unterschiedliche Nummerierungs-Varianten entstehen.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts15"><br></span></p>
+<p><span class="rvts15">Optionen</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">Nur markierte Bauteile</span></p>
+<p><span class="rvts9">Wenn Sie vor dem Aufruf des Dialoges Bauteile markiert haben, können Sie hier bestimmen, ob nur diese Bauteile neu nummeriert werden sollen.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Nur Bauteile mit Bezeichner:</span></p>
+<p><span class="rvts9">Wenn Sie hier einen Bezeichner (z.B. "</span><span class="rvts11">R</span><span class="rvts9">") eingeben, dann werden nur Bauteile mit diesem Bezeichner neu nummeriert.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">Start bei:</span></p>
+<p><span class="rvts9">Wenn die Bauteile nicht ab 1 durchnummeriert werden sollen, können Sie hier auch bei Bedarf einen anderen Startwert vorgeben.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts7"><br></span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; ABACOM GbR, Germany. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

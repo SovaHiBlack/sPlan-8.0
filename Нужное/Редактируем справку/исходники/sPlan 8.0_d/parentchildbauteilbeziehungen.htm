@@ -1,0 +1,204 @@
+﻿<html>
+	
+<head>
+	<title>Parent-Child Bauteilbeziehungen</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+
+<body>
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Parent-Child Bauteilbeziehungen</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="Bauteile.htm">Bauteile</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Bauteile.htm"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="AutomatischeBauteilnumerierung.htm"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Stcklisten.htm"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Einzelne Bauteile können in einer </span><span class="rvts11">Parent-Child</span><span class="rvts9"> Beziehung zueinander stehen. Ein Bauteil kann dabei als </span><span class="rvts11">Parent</span><span class="rvts9"> deklariert werden und andere Bauteile können dann dieses </span><span class="rvts11">Parent-Bauteil</span><span class="rvts9"> als eigenen Parent deklarieren und werden dadurch dann automatisch zu einem </span><span class="rvts11">Child</span><span class="rvts9"> des übergeordneten </span><span class="rvts11">Parents</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Ein </span><span class="rvts11">Parent</span><span class="rvts9"> kennt alle seine </span><span class="rvts11">Children</span><span class="rvts9">, und ein </span><span class="rvts11">Child</span><span class="rvts9"> kennt immer seinen </span><span class="rvts11">Parent</span><span class="rvts9">. Durch diese Verknüpfung können die Bauteile auf die Daten des zugehörigen Bauteiles zugreifen. So kann der Bezeichner eines </span><span class="rvts11">Child</span><span class="rvts9"> &nbsp;z.B. automatisch die Bezeichnung seines </span><span class="rvts11">Parents</span><span class="rvts9"> enthalten. Ändert sich dann der Bezeichner des </span><span class="rvts11">Parent</span><span class="rvts9">, so ändert sich automatisch auch die Bezeichnung des </span><span class="rvts11">Child</span><span class="rvts9">. So etwas ist z.B. insbesondere bei der Verwendung von Schützen + Kontakten oder auch bei IC's mit mehreren Gattern von Vorteil.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Hier ein Beispiel mit einem Schütz und 3 zugehörigen Kontakten:</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem153.png"></p>
+<p><span class="rvts9">Der Schütz ist ein </span><span class="rvts11">Parent</span><span class="rvts9"> und hat die Bezeichnung </span><span class="rvts28">K1</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">Die Kontakte haben den Schütz K1 als </span><span class="rvts11">Parent</span><span class="rvts9"> zugeordnet und sind damit automatisch dessen </span><span class="rvts11">Children</span><span class="rvts9">. In diesem Beispiel übernehmen die </span><span class="rvts11">Children</span><span class="rvts9"> den Bezeichner </span><span class="rvts28">K1 </span><span class="rvts9">vom </span><span class="rvts11">Parent</span><span class="rvts9"> und erhalten nachfolgend noch eine laufende Nummer.</span></p>
+<p><span class="rvts9">Wenn sich nun der Bezeichner vom Schütz ändert, so ändern sich automatisch auch die Bezeichner aller Kontakte.</span></p>
+<p><span class="rvts9">Die Kontakte können dabei auch auf mehrere verschiedene Blätter des Projektes verteilt sein.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Hier ein weiteres Beispiel für ein 7400-IC:</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem155.png"></p>
+<p><span class="rvts9">Das Hauptbauteil links ist der </span><span class="rvts11">Parent</span><span class="rvts9">, und die 4 einzelnen Gatter sind die </span><span class="rvts11">Children</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">Die </span><span class="rvts11">Children</span><span class="rvts9"> übernehmen in diesem Beispiel den Bezeichner </span><span class="rvts28">IC1</span><span class="rvts9"> und auch den Wert </span><span class="rvts29">7400</span><span class="rvts9"> des </span><span class="rvts11">Parents</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">Ändert sich der Bezeichner oder der Wert des </span><span class="rvts11">Parents</span><span class="rvts9">, so ändern sich automatisch auch alle Bezeichner und Werte der einzelnen Gatter. Auch hier gilt, dass die Gatter sich auch auf mehrere verschiedene Blätter des Projektes verteilen können.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts30">Erzeugen von Parent-Child Beziehungen</span></p>
+<p><span class="rvts9">Die Erstellung einer Parent-Child Beziehung ist simpel: Sie wählen für ein beliebiges Bauteil einfach ein anderes Bauteil als </span><span class="rvts11">Parent</span><span class="rvts9"> aus. Sobald ein Bauteil ein </span><span class="rvts11">Parent</span><span class="rvts9"> besitzt ist es automatisch ein </span><span class="rvts11">Child</span><span class="rvts9"> dieses </span><span class="rvts11">Parents</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts30"><br></span></p>
+<p><span class="rvts30">Ein Bauteil als Parent definieren:</span></p>
+<p><span class="rvts9">Als </span><span class="rvts11">Parent</span><span class="rvts9"> können nur die Bauteile zugewiesen werden, die bereits voher als </span><span class="rvts11">Parent</span><span class="rvts9"> deklariert sind.</span></p>
+<p><span class="rvts9">Um ein Bauteil als </span><span class="rvts11">Parent</span><span class="rvts9"> zu definieren, markieren Sie dieses und klicken dann in den Bauteileigenschaften auf den Knopf </span><span class="rvts11">Setze PARENT-Status</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem156.png"><span class="rvts9"> </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Danach hat das Bauteil dann den Parent-Status.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem158.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"> </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts30">Child definieren / ein Parent zuordnen:</span></p>
+<p><span class="rvts9">Wenn einem Bauteil ein </span><span class="rvts11">Parent</span><span class="rvts9"> zugeordnet wird, wird es automatisch zu einem </span><span class="rvts11">Child</span><span class="rvts9">.</span></p>
+<p><span class="rvts9">Um einem Bauteil mit einem </span><span class="rvts11">Parent</span><span class="rvts9"> zu verknüpfen, markieren Sie dieses und klicken dann in den Bauteileigenschaften auf den Knopf </span><span class="rvts11">Verknüpfe mit PARENT</span><span class="rvts9">...</span></p>
+<p><span class="rvts9">Hier wählen Sie nun den gewünschten </span><span class="rvts11">Parent</span><span class="rvts9"> aus der Liste der verfügbaren </span><span class="rvts11">Parents</span><span class="rvts9"> aus. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem156.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Sie können auch gleich mehrere Bauteile markieren und für alle markierten Bauteile den </span><span class="rvts11">Parent</span><span class="rvts9"> gemeinsam setzen. Wenn Sie also wie im oberen Beispiel einen Schütz und 3 Kontakte haben, dann markieren Sie die 3 Kontakte und verknüpfen dann alle 3 Bauteile mit dem Schütz als </span><span class="rvts11">Parent</span><span class="rvts9">.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Nach dem Verknüpfen ist das Bauteil automatisch ein </span><span class="rvts11">Child</span><span class="rvts9">.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem159.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts30">Automatisches Springen zum Child oder Parent:</span></p>
+<p><span class="rvts9">Wenn Sie ein </span><span class="rvts11">Parent</span><span class="rvts9"> mit untergeordneten </span><span class="rvts11">Children</span><span class="rvts9"> markieren, so werden alle </span><span class="rvts11">Children</span><span class="rvts9"> in den Bauteileigenschaften aufgelistet:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem162.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Innerhalb dieser Liste können Sie nun einfach auf einen Eintrag </span><span class="rvts11">doppelklicken</span><span class="rvts9"> und Sie werden zu dem entsprechenden </span><span class="rvts11">Child</span><span class="rvts9"> navigiert, auch wenn dieses auf einem anderen Blatt liegen sollte.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Das ganze funktioniert genauso bei einem </span><span class="rvts11">Child</span><span class="rvts9">. Hier wird auch immer der verknüpfte </span><span class="rvts11">Parent</span><span class="rvts9"> angezeigt:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem159.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Mit einem </span><span class="rvts11">Doppelklick</span><span class="rvts9"> auf den Eintrag werden Sie direkt zu dem </span><span class="rvts11">Parent</span><span class="rvts9"> navigiert, auch wenn dieser auf einem anderen Blatt liegen sollte.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts30">Parent-Child-Variablen</span></p>
+<p><span class="rvts9">Damit ein </span><span class="rvts11">Child</span><span class="rvts9"> automatisch den Bezeichner und den Wert seines </span><span class="rvts11">Parents</span><span class="rvts9"> übernehmen kann, werden spezielle </span><a class="rvts10" href="FesteVariablen.htm">Variablen</a><span class="rvts9"> benutzt, die nur für die </span><span class="rvts11">Parent-Child-Beziehung</span><span class="rvts9"> zur Verfügung stehen:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p class="rvps4"><span class="rvts11">&lt;PARENT_ID&gt;</span></p>
+<p class="rvps4"><span class="rvts9">Bezeichner des Parents</span></p>
+<p class="rvps4"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">&lt;PARENT_VALUE&gt;</span></p>
+<p class="rvps4"><span class="rvts9">Wert des Parents</span></p>
+<p class="rvps4"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">&lt;PARENT_PAGENO&gt;</span></p>
+<p class="rvps4"><span class="rvts9">Blattnummer des Parents</span></p>
+<p class="rvps4"><span class="rvts11"><br></span></p>
+<p class="rvps4"><span class="rvts11">&lt;CHILDNO&gt;</span></p>
+<p class="rvps4"><span class="rvts9">Nummer des Child</span></p>
+<p class="rvps4"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">&lt;CHILDCHAR&gt;</span></p>
+<p class="rvps4"><span class="rvts9">Alphabetischer Buchstabe entsprechend der Nummer des Child (a,b,c...)</span></p>
+<p class="rvps4"><span class="rvts7">&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">&lt;CHILD_PAGENO&gt;</span></p>
+<p class="rvps4"><span class="rvts9">Blattnummer des Child</span></p>
+<p class="rvps4"><span class="rvts11"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Damit ein </span><span class="rvts11">Child</span><span class="rvts9"> automatisch den </span><span class="rvts28">Bezeichner</span><span class="rvts9"> und den </span><span class="rvts29">Wert</span><span class="rvts9"> seines </span><span class="rvts11">Parents</span><span class="rvts9"> übernimmt, werden die entsprechenden Felder des </span><span class="rvts11">Child</span><span class="rvts9"> beim Verknüpfen mit einem </span><span class="rvts11">Parent</span><span class="rvts9"> bereits mit 2 Variablen vorbelegt:</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Der </span><span class="rvts28">Bezeichner</span><span class="rvts9"> erhält automatisch die Variable </span><span class="rvts28">&lt;PARENT_ID&gt;</span></p>
+<p><span class="rvts9">Der </span><span class="rvts29">Wert</span><span class="rvts9"> erhält automatisch die Variable </span><span class="rvts29">&lt;PARENT_VALUE&gt;</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem163.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Sie können diese Vorbelegung auch beliebig ändern oder erweitern. </span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILDNO&gt; </span><span class="rvts9">und</span><span class="rvts11"> &lt;CHILDCHAR&gt;:</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts9">Der Parent verwaltet seine Childs und gibt diesen eine laufende Nummer. Die Variable </span><span class="rvts11">&lt;CHILDNO&gt;</span><span class="rvts9"> gibt diese Nummer an. Wenn ein Parent z.B. 3 Childs hat, dann haben diese 3 Childs die Nummern 1,2 und 3. Diese Nummer kann z.B. zusätzlich zum Bezeichner angezeigt werden. Definieren Sie dazu den Bezeichner des Childs so: </span><span class="rvts11">&lt;PARENT_ID&gt;-&lt;CHILDNO&gt;</span></p>
+<p><span class="rvts9">Jetzt werden die Bezeichner der Childs auf dem Plan z.B. so aussehen: </span><span class="rvts11">IC-1, IC-2, IC-3,...</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Die Variable </span><span class="rvts11">&lt;CHILDCHAR&gt;</span><span class="rvts9"> gibt die laufende Nummer als Character (Buchstaben) an, also a,b,c...</span></p>
+<p><span class="rvts9">Definieren Sie dazu den Bezeichner des Childs so: </span><span class="rvts11">&lt;PARENT_ID&gt;-&lt;CHILDCHAR&gt;</span></p>
+<p><span class="rvts9">Jetzt werden die Bezeichner der Childs auf dem Plan z.B. so aussehen: </span><span class="rvts11">IC-a, IC-b, IC-c,...</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts30">Childliste (Kontaktspiegel)</span></p>
+<p><span class="rvts9">Wenn Sie ein </span><span class="rvts11">Parent</span><span class="rvts9"> mit untergeordneten </span><span class="rvts11">Children</span><span class="rvts9"> markieren, so werden alle </span><span class="rvts11">Children</span><span class="rvts9"> in den Bauteileigenschaften aufgelistet.</span></p>
+<p><span class="rvts9">Hier können Sie auch eine Childliste (Kontaktspiegel) für das Bauteil erstellen:</span></p>
+<p><span class="rvts30"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem162.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Nach einem Klick auf </span><span class="rvts11">Erstelle Childliste (Kontaktspiegel)</span><span class="rvts9"> erscheint dieser Dialog:</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem170.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Hier können Sie gewisse Einstellungen zum Kontaktspiegel machen. </span></p>
+<p><span class="rvts9">Mit einem Klick auf </span><span class="rvts11">Einfügen...</span><span class="rvts9"> können Sie den Kontaktspiegel dann auf Ihrem Plan platzieren:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem171.png"></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts30"><br></span></p>
+<p><span class="rvts30"><br></span></p>
+<p><span class="rvts30">Parent-Child farbig darstellen</span></p>
+<p><span class="rvts9">sPlan kann alle </span><span class="rvts11">Parent-Child-Bauteile</span><span class="rvts9"> auf dem Plan farbig markieren. Damit können Sie auf einen Blick erkennen, welche Bauteile als </span><span class="rvts11">Parent</span><span class="rvts9"> oder als </span><span class="rvts11">Child</span><span class="rvts9"> definiert sind, und welche </span><span class="rvts11">Children</span><span class="rvts9"> zu welchem </span><span class="rvts11">Parent</span><span class="rvts9"> gehören.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem166.png"><span class="rvts9"> Zum Ein-/Ausschalten dieser Funktion benutzen Sie bitte diesen Knopf in der oberen Toolbar von sPlan.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Alle </span><span class="rvts11">Parents</span><span class="rvts9"> werden nun leicht blau, alle </span><span class="rvts11">Children</span><span class="rvts9"> leicht rötlich hinterlegt.</span></p>
+<p><span class="rvts9">Wenn Sie jetzt ein </span><span class="rvts11">Parent</span><span class="rvts9"> oder ein </span><span class="rvts11">Child</span><span class="rvts9"> markieren, dann wird der </span><span class="rvts11">Parent</span><span class="rvts9"> und alle zugehörigen </span><span class="rvts11">Children</span><span class="rvts9"> stärker eingefärbt, und Sie können sofort die Zusammengehörigkeit der Bauteile erkennen:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem167.png"></p>
+<p><span class="rvts7"><br></span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem169.png"><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts30"><br></span></p>
+<p><span class="rvts30"><br></span></p>
+<p><span class="rvts30"><br></span></p>
+<p><span class="rvts30">Parent-Child in der Bibliothek</span></p>
+<p><span class="rvts9">Wenn es Sinn macht, können Sie eine komplette </span><span class="rvts11">Parent-Child-Struktur</span><span class="rvts9"> als 1 Bauteil in die Bibliothek aufnehmen.</span></p>
+<p><span class="rvts9">Das wäre z.B. für das obige Beispiel eines 7400-IC's mit seinen 4 Gattern sinnvoll.</span></p>
+<p><span class="rvts9">Markieren Sie dazu einfach das </span><span class="rvts11">Parent-Bauteil</span><span class="rvts9"> und all seine </span><span class="rvts11">Children</span><span class="rvts9">. Klicken Sie nun mit der rechten Maustaste auf den </span><span class="rvts11">Parent</span><span class="rvts9"> und wählen Sie den Eintrag </span><span class="rvts11">Markiertes Bauteil (mit Children) in die Bibliothek kopieren</span><span class="rvts9">. Es wird nur das </span><span class="rvts11">Parent</span><span class="rvts9">-Bauteil in die Bibliothek aufgenommen, die </span><span class="rvts11">Children</span><span class="rvts9"> sind dem </span><span class="rvts11">Parent</span><span class="rvts9"> aber hinterlegt. Sie erkennen das daran, dass in der Bibliothek bei diesem Bauteil ein kleines Dreieck unten rechts angezeigt wird. Wenn Sie mit der Maus dieses Dreieck anfahren, dann werden die zugehörigen </span><span class="rvts11">Children</span><span class="rvts9"> rechts neben dem Bauteil angezeigt:</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem164.png"><span class="rvts7"> </span></p>
+<p><img border="0" alt hspace="1" vspace="1" src="lib/NewItem165.png"></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts9">Ziehen Sie so ein Bauteil auf Ihren Plan, so wird das </span><span class="rvts11">Parent-Bauteil</span><span class="rvts9"> mitsamt seinen </span><span class="rvts11">Children</span><span class="rvts9"> angelegt.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts7"><br></span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+<p><span class="rvts30">Parent-Child Liste erstellen</span></p>
+<p><span class="rvts9">Sie können eine hierarchische Liste mit allen </span><span class="rvts11">Parents</span><span class="rvts9"> und den zugehörigen </span><span class="rvts11">Children</span><span class="rvts9"> erstellen.</span></p>
+<p><span class="rvts9">Das ist z.B. für ein umfangreiches Projekt mit Schützen und Kontakten, verteilt auf verschieden Blätter sinnvoll. In dieser Liste werden für alle </span><span class="rvts11">Parents</span><span class="rvts9"> die zugehörigen </span><span class="rvts11">Children</span><span class="rvts9"> angezeigt. So erhalten Sie eine Komplettübersicht über alle Blätter des Projektes.</span></p>
+<p><span class="rvts9">Zum Erstellen diese Liste wählen Sie aus dem Menü </span><span class="rvts11">Funktionen</span><span class="rvts9"> den Eintrag </span><span class="rvts11">Parent-Child-Liste erstellen..</span><span class="rvts9">.</span></p>
+<p><span class="rvts7">&nbsp;</span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; ABACOM GbR, Germany. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

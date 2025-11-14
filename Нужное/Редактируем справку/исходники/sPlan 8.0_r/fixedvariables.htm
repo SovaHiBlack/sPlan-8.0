@@ -1,0 +1,310 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD><TITLE>Fixed Variables</TITLE>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.9600.19699"><LINK rel=stylesheet 
+type=text/css href="css/reset.css" media=all><LINK rel=stylesheet type=text/css 
+href="css/base.css" media=all><LINK rel=stylesheet type=text/css 
+href="css/hnd.css" media=all><!--[if lte IE 8]><LINK rel=stylesheet 
+type=text/css href="css/ielte8.css" media=all><![endif]-->
+<SCRIPT type=text/javascript src="js/chmRelative.js"></SCRIPT>
+</HEAD>
+<BODY>
+<DIV id=topic_header>
+<DIV id=topic_header_content>
+<H1>
+<P class=MsoNormal 
+style="BACKGROUND: white; MARGIN: 0cm 0cm 0pt; mso-outline-level: 2"><B><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Arial",sans-serif; COLOR: #333333; mso-font-kerning: 1.0pt'>Фиксированные 
+переменные<o:p></o:p></SPAN></B></P></H1>
+<DIV id=topic_breadcrumb><A href="VariablesTextConstants.htm">Variables / Text 
+Constants</A> ›› </DIV></DIV>
+<DIV id=topic_header_nav><A href="VariablesTextConstants.htm"><IMG alt=Parent 
+src="img/arrow_up.png"></A> <A href="VariablesTextConstants.htm"><IMG 
+alt=Previous src="img/arrow_left.png"></A> <A href="UserVariables.htm"><IMG 
+alt=Next src="img/arrow_right.png"></A> </DIV>
+<DIV class=clear></DIV></DIV>
+<DIV id=topic_content>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Переменные можно 
+использовать в качестве заполнителей в тексте.</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">В sPlan есть большое 
+количество предопределенных так называемых фиксированных переменных. Вы можете 
+использовать эти переменные в тексте по своему усмотрению и таким образом 
+автоматизировать тексты. Имя переменной всегда должно быть включено в текст с 
+символами «&lt;» и «&gt;». Например, переменная выглядит 
+так:</SPAN></SPAN></SPAN><SPAN class=rvts9>&nbsp;</SPAN><SPAN 
+class=rvts11>&lt;PAGENO&gt;</SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Вот простой Совет: 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P>
+<P>&nbsp;</SPAN><SPAN class=rvts9><SPAN class=rvts13><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Вы можете открыть 
+диалоговое окно «Расширенное редактирование текста», просто дважды щелкнув 
+текст. </SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P>
+<P><BR></SPAN></P>
+<P><IMG border=0 hspace=1 vspace=1 src="lib/NewItem238.png" 
+align=absMiddle><SPAN class=rvts7> &nbsp; </SPAN><IMG border=0 hspace=1 vspace=1 
+src="lib/NewItem239.png"><SPAN class=rvts13>&nbsp;</SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts9><A name=_Hlk88829175><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Здесь 
+в тексте использовались </SPAN></SPAN></A><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>2 
+переменные&nbsp;</SPAN></SPAN></SPAN><SPAN 
+class=rvts11>&lt;PAGENO&gt;</SPAN><SPAN class=rvts9> и </SPAN><SPAN 
+class=rvts11>&lt;PAGECOUNT&gt;.</SPAN><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Эти 
+две переменные предоставляют номер текущей страницы и общее количество страниц в 
+проекте. Переменные изменяют свое содержание автоматически. Поэтому, если в 
+проект добавляется новая страница, текст автоматически меняется на «<STRONG>Это 
+страница 1 из 3</STRONG>».</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11><BR></SPAN></P><SPAN class=rvts29>
+<P><SPAN class=rvts29><SPAN 
+style="FONT-SIZE: 11pt; mso-bidi-font-family: Arial">Вот список всех 
+предопределенных фиксированных переменных:</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p>&nbsp;</o:p></SPAN></SPAN></P>
+<P><SPAN class=rvts11>&lt;PAGENO&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер страницы 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PAGECOUNT&gt;</SPAN></P>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Общее 
+количество страниц</SPAN></SPAN></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PAGENAME&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Название 
+страницы</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;FILENAME&gt;</SPAN></P>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Имя 
+файла (если сохранено)</SPAN></SPAN></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;FILEPATH&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Папка, в которой сохранен 
+файл</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;FILEDATE&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Дата файла (если 
+сохранен)</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;FILETIME&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Время файла (если 
+сохранено)</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;VERSION&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Версия программы (= "sPlan 
+8.0")</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;TIME&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Текущее 
+время</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;DATE&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Текущая 
+дата</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P><SPAN class=rvts29>
+<P><SPAN class=rvts29><SPAN 
+style="FONT-SIZE: 11pt; mso-bidi-font-family: Arial">Переменные, которые 
+доступны только в связи с </SPAN></SPAN><SPAN class=MsoHyperlink><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "Verdana",sans-serif; mso-bidi-font-family: Arial'><A 
+href="ParentChildRelations.htm"><FONT color=#0000ff>Родительско-дочерних 
+отношениях</FONT></A></SPAN></B></SPAN><SPAN class=rvts29><SPAN 
+style="FONT-SIZE: 11pt; mso-bidi-font-family: Arial">:</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts11>&lt;PARENT_ID&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Идентификатор 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PARENT_VALUE&gt;</SPAN></P><SPAN class=rvts9><SPAN 
+class=rvts9><SPAN style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номинал 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN></SPAN></SPAN>
+<P><SPAN class=rvts11></SPAN>&nbsp;</P>
+<P><SPAN class=rvts11>&lt;PARENT_PAGENO&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер страницы 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PARENT_Z1&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Дополнительный текст 1 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts11><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PARENT_Z2&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Дополнительный текст 2 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts11><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PARENT_Z3&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Дополнительный текст&nbsp;3 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts11><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PARENT_Z4&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Дополнительный текст&nbsp;4 
+родителя</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts11><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;PARENT_CONTACT_1&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Контакт 1 из родителей (... 
+2, ... 3 и т. Д.)</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;CHILDNO&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Дочерний 
+номер</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;CHILDCHAR&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Буква алфавита, 
+соответствующая номеру ребенка (a, b, c ...)</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;CHILD_PAGENO&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер страницы 
+ребенка</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P><SPAN class=rvts29>
+<P><SPAN class=rvts29><SPAN 
+style="FONT-SIZE: 11pt; mso-bidi-font-family: Arial">Переменные, которые 
+доступны только в компоненте:</SPAN></SPAN></SPAN><SPAN 
+class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;BEZ&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Копия идентификатора 
+детали</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;VALUE&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Копия номинала 
+компонента</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;Z1&gt;</SPAN></P>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Копия 
+дополнительного текста 1</SPAN></SPAN></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;Z2&gt;</SPAN></P>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Копия 
+дополнительного текста 2</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;Z3&gt;</SPAN></P>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Копия 
+дополнительного текста 3</SPAN></SPAN></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;Z4&gt;</SPAN></P>
+<P><SPAN class=rvts9><SPAN class=rvts9><SPAN 
+style='FONT-SIZE: 10pt; mso-bidi-font-family: Arial; mso-fareast-font-family: "Times New Roman"; mso-fareast-language: ZH-CN; mso-ansi-language: RU; mso-bidi-language: AR-SA'>Копия 
+дополнительного текста 4</SPAN></SPAN></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P><SPAN class=rvts11>
+<P><SPAN class=rvts11><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Если вы определили в 
+</SPAN></SPAN><SPAN class=MsoHyperlink><B><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Verdana",sans-serif; mso-bidi-font-family: Arial'><A 
+href="UsingForms.htm"><FONT 
+color=#0000ff>форме</FONT></A></SPAN></B></SPAN><SPAN class=rvts11><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial"> в свойствах страницы 
+доступны следующие дополнительные переменные:</SPAN></SPAN></SPAN><SPAN 
+class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;COLNUM&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер 
+<STRONG>КОЛОНКИ</STRONG>, в которой находится компонент</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;COLCHAR&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Буква алфавита для номера 
+<STRONG>КОЛОНКИ</STRONG>, в которой расположен компонент (A, B, C 
+...)</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;ROWNUM&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер 
+<STRONG>СТРОКИ</STRONG>, в котором расположен 
+компонент.</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;ROWCHAR&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Буква алфавита для номера 
+СТРОКИ, в которой расположен компонент (A, B, C ...)</SPAN></SPAN></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P><SPAN class=rvts29>
+<P><SPAN class=rvts29><SPAN 
+style="FONT-SIZE: 11pt; mso-bidi-font-family: Arial">Переменные, доступные 
+только в </SPAN></SPAN><SPAN class=MsoHyperlink><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "Verdana",sans-serif; mso-bidi-font-family: Arial'><A 
+href="ActiveTextLinks.htm"><FONT color=#0000ff>текстовых 
+ссылках</FONT></A></SPAN></B></SPAN><SPAN class=rvts29><SPAN 
+style="FONT-SIZE: 11pt; mso-bidi-font-family: Arial">:</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;LINK_PAGENO&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер страницы, на которой 
+расположен целевой текст.</SPAN></SPAN></SPAN><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;LINK_PAGENAME&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Название страницы, на 
+которой находится целевой текст.</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;LINK_TEXT&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Текст целевого 
+текста</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;LINKFROM_PAGENO&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Номер страницы, на которой 
+расположен исходный текст.</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;LINKFROM_PAGENAME&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Название страницы, на 
+которой расположен исходный текст.</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts11>&lt;LINKFROM_TEXT&gt;</SPAN></P><SPAN class=rvts9>
+<P><SPAN class=rvts9><SPAN 
+style="FONT-SIZE: 10pt; mso-bidi-font-family: Arial">Текст исходного 
+текста</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10pt; FONT-FAMILY: "Arial",sans-serif; COLOR: black'><o:p></o:p></SPAN></P></SPAN>
+<P><SPAN class=rvts9><BR></SPAN></P>
+<P><SPAN class=rvts9><BR></SPAN></P></DIV>
+<DIV id=topic_footer>
+<DIV id=topic_footer_content>Copyright © ABACOM GbR, Germany. All Rights 
+Reserved.</DIV></DIV></BODY></HTML>

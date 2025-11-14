@@ -1,0 +1,251 @@
+﻿<html>
+	
+<head>
+	<title>Fixed Variables</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+
+<body>
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Fixed Variables</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="VariablesTextConstants.htm">Variables / Text Constants</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="VariablesTextConstants.htm"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="VariablesTextConstants.htm"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="UserVariables.htm"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p><span class="rvts6"><br></span></p>
+<p><span class="rvts9">Variables can be used as placeholders within a text.</span></p>
+<p><span class="rvts9">There are a large number of predefined so-called </span><span class="rvts11">fixed variables</span><span class="rvts9"> in sPlan. You can use these variables as you wish within a text and thus automate the texts in a way. The variable name must always be embedded in the texts with the characters </span><span class="rvts11">"&lt;"</span><span class="rvts9"> and </span><span class="rvts11">"&gt;"</span><span class="rvts9">. A variable looks like this, for example: </span><span class="rvts11">&lt;PAGENO&gt;</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Here is a simple example: </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><img align="absmiddle" border="0" alt hspace="1" vspace="1" src="lib/NewItem238.png"><span class="rvts7"> &nbsp; </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem239.png"></p>
+<p><span class="rvts13">You can reach the </span><span class="rvts19">Extended text edit</span><span class="rvts13"> dialog simply by double-clicking on the text. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9">Here the 2 variables </span><span class="rvts11">&lt;PAGENO&gt;</span><span class="rvts9"> and </span><span class="rvts11">&lt;PAGECOUNT&gt;</span><span class="rvts9"> have been used in the text. These two variables supply the page number of the current page and the total number of pages in the project. The variables change their content automatically. So if a new page is added to the project, the text automatically changes to </span><span class="rvts11">"This is page 1 of 3"</span><span class="rvts9">. </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts29">Here is a list of all predefined fixed variables:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PAGENO&gt;</span></p>
+<p><span class="rvts9">The page number </span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PAGECOUNT&gt;</span></p>
+<p><span class="rvts9">The total number of pages</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PAGENAME&gt;</span></p>
+<p><span class="rvts9">The name of the page</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;FILENAME&gt;</span></p>
+<p><span class="rvts9">The name of the file (if saved)</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;FILENAME_PURE&gt;</span></p>
+<p><span class="rvts9">The name of the file (if saved) without file extension</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;FILEPATH&gt;</span></p>
+<p><span class="rvts9">The folder in which the file is saved</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;FILEDATE&gt;</span></p>
+<p><span class="rvts9">The date of the file (if saved)</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;FILETIME&gt;</span></p>
+<p><span class="rvts9">The time of the file (if saved)</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;VERSION&gt;</span></p>
+<p><span class="rvts9">The program version (= "sPlan 8.0")</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;TIME&gt;</span></p>
+<p><span class="rvts9">The current time</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;DATE&gt;</span></p>
+<p><span class="rvts9">The current date</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts29">Variables that are only available within a component:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;BEZ&gt;</span></p>
+<p><span class="rvts9">A copy of the part identifier</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;VALUE&gt;</span></p>
+<p><span class="rvts9">A copy of the component value</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;Z1&gt;</span></p>
+<p><span class="rvts9">A copy of the additional text 1</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;Z2&gt;</span></p>
+<p><span class="rvts9">A copy of the additional text 2</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;Z3&gt;</span></p>
+<p><span class="rvts9">A copy of the additional text 3</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;Z4&gt;</span></p>
+<p><span class="rvts9">A copy of the additional text 4</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">If you have defined a </span><a class="rvts31" href="UsingForms.htm">form</a><span class="rvts11"> in the page properties, the following additional variables are available:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;COLNUM&gt;</span></p>
+<p><span class="rvts9">The number of the COLUMN in which the component is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the COLUMN in which the component is located (A, B, C ...)</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;ROWNUM&gt;</span></p>
+<p><span class="rvts9">The number of the ROW in which the component is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the ROW in which the component is located (A, B, C ...)</span></p>
+<p><span class="rvts29"><br></span></p>
+<p><span class="rvts29"><br></span></p>
+<p><span class="rvts29"><br></span></p>
+<p><span class="rvts29">Variables that are only available in connection with the </span><a class="rvts30" href="ParentChildRelations.htm">Parent-Child relationship</a><span class="rvts29">:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts29">Variables for use in Child components:</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_ID&gt;</span></p>
+<p><span class="rvts9">Identifier of the parent</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_VALUE&gt;</span></p>
+<p><span class="rvts9">Parent's value</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_PAGENO&gt;</span></p>
+<p><span class="rvts9">Page number of the parent</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z1&gt;</span></p>
+<p><span class="rvts9">Additional text 1 of the parent</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z2&gt;</span></p>
+<p><span class="rvts9">Additional text 2 of the parent</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z3&gt;</span></p>
+<p><span class="rvts9">Additional text 3 of the parent</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_Z4&gt;</span></p>
+<p><span class="rvts9">Additional text 4 of the parent</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_CONTACT_1&gt;</span></p>
+<p><span class="rvts9">Contact 1 of the parent (...2, ...3, etc.)</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_COLNUM&gt;</span></p>
+<p><span class="rvts9">The number of the COLUMN in which the parent is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the COLUMN in which the parent is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_ROWNUM&gt;</span></p>
+<p><span class="rvts9">The number of the ROW in which the parent is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;PARENT_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the ROW in which the parent is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;CHILDNO&gt;</span></p>
+<p><span class="rvts9">Child number</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;CHILDCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter corresponding to the number of the child (a, b, c ...)</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts29">Variables for use in Parent components:</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_PAGENO&gt;</span></p>
+<p><span class="rvts9">Page number(s) of the child</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_PAGENAME&gt;</span></p>
+<p><span class="rvts9">Page number of the (first) child</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_COLNUM&gt;</span></p>
+<p><span class="rvts9">The number of the COLUMN in which the (first) child is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the COLUMN in which the (first) child is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_ROWNUM&gt;</span></p>
+<p><span class="rvts9">The number of the ROW in which the (first) child is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;CHILD_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the ROW in which the (first) child is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts9">These </span><span class="rvts11">&lt;CHILD_...&gt;</span><span class="rvts9"> variables always return the data of the </span><span class="rvts11">first</span><span class="rvts9"> child.</span></p>
+<p><span class="rvts9">If you have linked several child-components with the parent, you can also specify the desired child number directly in the variables. Simply add an underscore followed by the child-number to the end of the variable BEFORE the "</span><span class="rvts11">&gt;</span><span class="rvts9">". For example, the variable </span><span class="rvts11">&lt;CHILD_PAGENO_2&gt;</span><span class="rvts9"> returns the page-number of the 2nd child, or </span><span class="rvts11">&lt;CHILD_COLNUM_4&gt;</span><span class="rvts9"> returns the column-number of the 4th child.</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts29">Variables that are only available within </span><a class="rvts30" href="ActiveTextLinks.htm">text links</a><span class="rvts29">:</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINK_PAGENO&gt;</span></p>
+<p><span class="rvts9">The page number on which the target text is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINK_PAGENAME&gt;</span></p>
+<p><span class="rvts9">The name of the page on which the target text is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINK_TEXT&gt;</span></p>
+<p><span class="rvts9">The text of the target text</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINK_COLNUM&gt;</span></p>
+<p><span class="rvts9">The number of the COLUMN in which the target text is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the COLUMN in which the target text is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINK_ROWNUM&gt;</span></p>
+<p><span class="rvts9">The number of the ROW in which the target text is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINK_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the ROW in which the target text is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_PAGENO&gt;</span></p>
+<p><span class="rvts9">The page number on which the source text is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_PAGENAME&gt;</span></p>
+<p><span class="rvts9">The name of the page on which the source text is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_TEXT&gt;</span></p>
+<p><span class="rvts9">The text of the source text</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_COLNUM&gt;</span></p>
+<p><span class="rvts9">The number of the COLUMN in which the (first) source text is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_COLCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the COLUMN in which the (first) source text is located</span></p>
+<p><span class="rvts9"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_ROWNUM&gt;</span></p>
+<p><span class="rvts9">The number of the ROW in which the (first) source text is located</span></p>
+<p><span class="rvts11"><br></span></p>
+<p><span class="rvts11">&lt;LINKFROM_ROWCHAR&gt;</span></p>
+<p><span class="rvts9">Alphabetical letter for the number of the ROW in which the (first) source text is located</span></p>
+<p><span class="rvts11"><br></span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; ABACOM GbR, Germany. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+
