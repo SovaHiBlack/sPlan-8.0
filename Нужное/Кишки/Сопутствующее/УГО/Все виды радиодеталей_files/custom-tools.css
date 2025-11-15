@@ -1,0 +1,488 @@
+/* custom-tools.css */
+/* Объединённые стили калькуляторов и пользовательские стили */
+
+/* ========== КАЛЬКУЛЯТОРЫ ========== */
+.calc-box {
+    margin: 10px auto 20px auto;
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 340px;
+    background-color: #FFFFCC;
+    font-family: sans-serif;
+}
+.calc-box img {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 6px;
+}
+.calc-box label {
+    display: block;
+
+    font-weight: bold;
+}
+.calc-box input, .calc-box select {
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.calc-box button {
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.calc-box button:hover {
+    background-color: #45a049;
+}
+.calc-box p {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* ... остальной CSS ... */
+
+
+
+td, body {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
+.size-auto, .size-full, .size-large, .size-medium, .crp_thumb, .size-thumbnail, .entry-summary, .entry-content img {
+border-radius: 5px;
+	height: auto !important;
+}
+
+img:hover {
+-webkit-filter: brightness(1.1);
+}
+
+.entry-summary img {
+    height: auto !important;
+    max-width: 100%;
+	    max-width: 800px !important;
+		border-radius: 5px;
+	margin-left: 1px;
+    margin-right: 9px;
+}
+
+img.ic {
+	    margin-right: 5px;
+}
+
+blockquote {
+    border: 1px solid #ccc;
+    font-size: inherit;
+    font-style: normal;
+    position: relative;
+	background-position: 20px 50%;
+    background-repeat: no-repeat;
+    margin: 1px;
+	    margin-bottom: 20px;
+    padding: 15px 20px 15px 20px;
+    background-color: #FFFFCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+
+    border-radius: 5px;
+}
+
+.site-main>*, .separate-containers  {
+    border-bottom: 1px solid #999;
+}
+
+a:hover {
+    text-decoration: none;
+   }
+
+@media (max-width: 768px) {
+	
+.entry-meta, .entry-meta * {
+			 text-align: center;
+}
+	
+.archive .entry-title, .blog .entry-title, .search .entry-title, .page-title, .entry-title, .entry-content h2, h3 {
+			 text-align: center;
+}
+
+.entry-summary img {
+	float:none !important;
+ text-align: center !important;
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 15px;
+}
+
+table td {
+		    padding: 0.7em 0.1em  !important;
+}
+
+table th {
+		    padding: 0.7em 0.1em  !important;
+}
+	
+table.men td {
+		padding: 0.3em 0.1em  !important;
+	font-size: 14px !important;
+}
+	
+}
+
+
+
+table {
+    border: 0px solid #ccc;
+ margin-left: auto;
+ margin-right: auto;
+	 max-width: 100% !important;
+	border-collapse: collapse;
+	word-break: break-all;
+}
+
+table td {
+    border: 1px solid #ccc;
+ margin-left: auto;
+ margin-right: auto;
+		    padding: 0.7em 0.7em;
+	font-size: 14px;
+				 text-align: center;
+}
+
+table th {
+    border: 1px solid #ccc;
+	background: #FFFFCC;
+		    padding: 0.7em 0.7em;
+	font-size: 14px;
+		text-align: center;
+}
+
+table.men {
+  border: 0px solid #555;
+	max-width: 600px !important;
+		text-align: left;
+	margin-left: 0px !important;
+}
+
+table.men td {
+  border: 0px solid #555;
+	padding: 0.3em 0.1em;
+			text-align: left;
+		font-size: 16px;
+}
+
+table.men2 {
+    border: 0px solid #555 !important;
+ margin-left: auto;
+ margin-right: auto;
+		    padding: 0.3em 0.1em;
+	font-size: 18px;
+			text-align: left;
+		word-break: normal;
+}
+
+table.men2 td {
+    border: 0px solid #555;
+	padding: 0.3em 0.1em !important;
+		font-size: 18px;
+	text-align: left;
+}
+
+table.men3 {
+    border: 0px solid #555 !important;
+ margin-left: auto;
+ margin-right: auto;
+		    padding: 0.3em 0.1em;
+	font-size: 13px;
+			text-align: left;
+		word-break: normal;
+}
+
+table.men3 td {
+    border: 0px solid #555;
+	padding: 0.3em 0.1em !important;
+		font-size: 13px;
+	text-align: left;
+}
+
+
+
+main li { 
+    margin: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li>ol, li>ul {
+    margin-left: 0.2em;
+}
+
+.wshs-post-simple-list ul li {
+margin: 0 0 30px 1px;
+list-style: none;	
+	padding-left: 0px;
+	max-width: 90%;
+}
+
+.wshs-post-simple-list li p {
+    margin-top: 5px;
+		font-size: 15px;
+}
+
+#ez-toc-container ul ul, .ez-toc div.ez-toc-widget-container ul ul {
+    margin-left: 0.5em;
+}
+
+.crp_related.crp-grid {
+    margin-top: 30px;
+}
+
+.crp_title {
+		text-align: center;
+    font-weight: bold;
+			font-size: 18px;
+	padding-top: 10px;
+		padding-bottom: 20px;
+}
+
+.paging-navigation {
+				font-size: 24px;
+		text-align: center;
+}
+
+.wp-video {
+    max-width: 100%;
+		float:none !important;
+ text-align: center !important;
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+		border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.next.page-numbers {
+    display: none;
+   }
+
+.prev.page-numbers {
+    display: none;
+   }
+
+.rmp-btn {
+    background-color: #ffcc36;
+		border-radius: 5px;
+    color: #222;
+}
+
+
+.custom-block {
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #ffffcc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto 15px; /* по центру + отступ снизу */
+  box-sizing: border-box;
+}
+
+
+.custom-block a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px; /* расстояние между картинкой и текстом */
+}
+
+.custom-block img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  flex-shrink: 0; /* картинка не сжимается меньше 100px */
+  object-fit: cover;
+}
+
+.custom-block span {
+  font-size: 16px;
+  flex-grow: 1; /* текст занимает оставшееся место */
+  word-wrap: break-word; /* перенос слов, чтобы не вылазить */
+  min-width: 0; /* важно для правильного переноса в flex */
+}
+
+/* Адаптивно уменьшаем размер текста и картинки на узких экранах */
+@media (max-width: 320px) {
+  .custom-block img {
+    width: 80px;
+    height: 80px;
+  }
+  .custom-block span {
+    font-size: 14px;
+  }
+}
+
+.circle-stats-wrapper {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 10px; /* небольшой внутренний отступ */
+}
+
+.circle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(80px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  max-width: 260px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.circle {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+	max-width: 110px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  animation: popIn 0.6s ease forwards;
+  opacity: 0;
+}
+
+.circle:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.circle:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.circle:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.circle:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.circle span.number {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.circle span.label {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 320px) {
+  .circle span.number {
+    font-size: 18px;
+  }
+  .circle span.label {
+    font-size: 11px;
+  }
+}
+
+.wshs-post-simple-list ul {
+    float: left;
+    width: 98%;
+	margin-left: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+    color: #222;
+    font-weight: bold;
+}
+
+/* Плейсхолдер — обычный шрифт */
+input::placeholder,
+textarea::placeholder {
+    font-weight: normal;
+}
+
+/* Обычный плейсхолдер */
+input::placeholder,
+textarea::placeholder {
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Плейсхолдер исчезает при фокусе */
+input:focus::placeholder,
+textarea:focus::placeholder {
+    opacity: 0;
+}
+
+.rmp-btn {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"], a.button, a.wp-block-button__link:not(.has-background) {
+    color: #ffffff;
+    background-color: #4CAF50;
+	  border-radius: 5px;
+}
+
+.input-line {
+    display: flex;
+    gap: 8px;
+}
+
+.input-line select {
+    width: 80px;
+}
+
+.input-group label {
+    margin: 0;
+}
+
+
+
+
+
